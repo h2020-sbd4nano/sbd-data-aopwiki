@@ -1,7 +1,7 @@
 # sbd-data-aopwiki
 
 
-###AOP-Wiki SPARQL queries for datasets:
+### AOP-Wiki SPARQL queries for datasets:
 
 AOP-AO:
 ```sparql
