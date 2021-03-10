@@ -11,16 +11,18 @@ dc:title ?AOPTitle ;
 aopo:has_adverse_outcome ?AO.
 ?AO dc:title ?AOTitle .}
 ```
-```sparql
+
 AOP-KE:
+```sparql
 SELECT ?AOP ?AOPTitle ?KE ?KETitle WHERE {
 ?AOP a aopo:AdverseOutcomePathway ;
 dc:title ?AOPTitle ;
 aopo:has_key_event ?KE.
 ?KE dc:title ?KETitle .}
 ```
-```sparql
+
 MIE-KE:
+```sparql
 SELECT ?MIE ?MolecularInitiatingEventName ?KE ?KeyEventName WHERE {
 ?MIE dc:title ?MolecularInitiatingEventName .
 ?AOP a aopo:AdverseOutcomePathway ;
