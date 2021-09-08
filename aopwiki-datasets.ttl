@@ -1,3 +1,6 @@
+@prefix sbd:     <https://www.sbd4nano.eu/rdf/#> .
+@prefix sbdbel:  <https://www.sbd4nano.eu/bel/#> .
+
 <https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FAO+%3FAOTitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_adverse_outcome+%3FAO.%0D%0A%3FAO+dc%3Atitle+%3FAOTitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+>
    a sbd:Dataset ;
    rdfs:label "AOP-Wiki AOP-AO dataset" ;
