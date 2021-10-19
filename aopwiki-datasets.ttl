@@ -1,8 +1,8 @@
 @prefix sbd:     <https://www.sbd4nano.eu/rdf/#> .
 @prefix sbdbel:  <https://www.sbd4nano.eu/bel/#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
-@PREFIX dc:      <http://purl.org/dc/elements/1.1/> .
-@PREFIX dcterms: <http://purl.org/dc/terms/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
 <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/>
  a                    void:DatasetDescription ;
