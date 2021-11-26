@@ -1,6 +1,7 @@
 PREFIX sbd:   <https://www.sbd4nano.eu/rdf/#>
 PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
 PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc:    <http://purl.org/dc/elements/1.1/>
 
 <AOP> a sbd:Model ;
   rdfs:label "AOPTitle"@en ;
@@ -2291,7 +2292,7 @@ PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
 <https://identifiers.org/aop/40> a sbd:Model ;
   rdfs:label "Covalent Protein binding leading to Skin Sensitisation"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/> ;
-  dc:description "Skin sensitisation is an endpoint that needs to be assessed within: - CLP Regulation (EC) No1272/2008 for "Classification, Labelling and Packaging of substances and Mixtures", - REACH Regulation (EC) No1907/2006 concerning the Registration, Evaluation, Authorization and Restriction of Chemicals, - PPP Regulation (EC) No1107/2009 concerning the placing of plant protection products on the market, - Biocidal Products Regulation (BPR) (EU) No528/2012 concerning the making available on the market and use of biocidal products, - Cosmetics Regulation (EC) No1223/2009."@en ;
+  dc:description "Skin sensitisation is an endpoint that needs to be assessed within: - CLP Regulation (EC) No1272/2008 for \"Classification, Labelling and Packaging of substances and Mixtures\", - REACH Regulation (EC) No1907/2006 concerning the Registration, Evaluation, Authorization and Restriction of Chemicals, - PPP Regulation (EC) No1107/2009 concerning the placing of plant protection products on the market, - Biocidal Products Regulation (BPR) (EU) No528/2012 concerning the making available on the market and use of biocidal products, - Cosmetics Regulation (EC) No1223/2009."@en ;
   foaf:page <https://identifiers.org/aop/40> .
 
 <https://identifiers.org/aop/41> a sbd:Model ;
