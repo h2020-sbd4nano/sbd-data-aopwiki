@@ -1,5 +1,15 @@
 # sbd-data-aopwiki
 
+## Getting the AOP models
+
+Run the following commmands to create the `sbd:Model`s:
+
+```shell
+curl -H "Accept: text/csv" --data-urlencode query@sparql/aops.rq -G https://aopwiki.rdf.bigcat-bioinformatics.org/sparql -o aops.csv
+groovy createModels.groovy | tee aops.ttl
+```
+
+The used query is based on the below query for adverse outcomes.
 
 ## AOP-Wiki SPARQL queries for datasets:
 

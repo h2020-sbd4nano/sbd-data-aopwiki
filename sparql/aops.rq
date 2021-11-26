@@ -1,0 +1,7 @@
+SELECT ?AOP ?AOPTitle ?description ?AO ?AOTitle WHERE {
+  ?AOP a aopo:AdverseOutcomePathway ;
+    dc:title ?AOPTitle ;
+    dc:description ?description ;
+    aopo:has_adverse_outcome ?AO.
+  ?AO dc:title ?AOTitle .
+}
