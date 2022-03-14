@@ -17,7 +17,7 @@
    a sbd:Dataset ;
    dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/> ;
    rdfs:label "AOP-Wiki AOP-AO dataset"@en ;
-   sbd:endpoint sbdbel:AdverseOutcome
+   sbd:endpoint sbdbel:AdverseOutcome ;
    foaf:page <https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FAO+%3FAOTitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_adverse_outcome+%3FAO.%0D%0A%3FAO+dc%3Atitle+%3FAOTitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+>.
    
 <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/ke/>
