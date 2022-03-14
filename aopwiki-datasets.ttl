@@ -10,7 +10,8 @@
  a                    void:DatasetDescription ;
  foaf:img             <https://aopwiki.rdf.bigcat-bioinformatics.org/assets/images/aopwiki-snorql-logo.png> ;
  dc:source            <https://aopwiki.rdf.bigcat-bioinformatics.org/> ;
- dcterms:title        "AOP-Wiki data"@en .
+ dcterms:title        "AOP-Wiki data"@en ;
+ dcterms:license      <https://www.wikidata.org/wiki/Q50423863> .
 
 <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/ao/>
    a sbd:Dataset ;
