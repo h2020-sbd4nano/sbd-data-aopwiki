@@ -12,13 +12,24 @@ println "PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>"
 println "PREFIX dc:    <http://purl.org/dc/elements/1.1/>"
 println ""
 
+println "<https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/>"
+println " a                    void:DatasetDescription ;"
+println " foaf:img             <https://aopwiki.rdf.bigcat-bioinformatics.org/assets/images/aopwiki-snorql-logo.png> ;"
+println " dc:source            <https://aopwiki.rdf.bigcat-bioinformatics.org/> ;"
+println " dcterms:title        \"AOP-Wiki AOPs\"@en ;"
+println " dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ."
+println ""
+
 for (line in data_iterator) {
-  println "<${line[0]}> a sbd:Model ;"
-  println "  rdfs:label \"${line[1]}\"@en ;"
-  println "  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/> ;"
-  description = line[2].replace("\n"," ").replace("\"", "\\\"").trim()
-  println "  dc:description \"${description}\"@en ;"
-  println "  foaf:page <${line[0]}> ."
-  println ""
+  if (line[1] != "AOPTitle") {
+    println "<${line[0]}> a sbd:Model ;"
+    println "  rdfs:label \"${line[1]}\"@en ;"
+    println "  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;"
+    description = line[2].replace("\n"," ").replace("\"", "\\\"").trim()
+    println "  dc:description \"${description}\"@en ;"
+    println "  foaf:page <${line[0]}> ;"
+    println "  dcterms:license      <http://example.com/unknown> ."
+    println ""
+  }
 }
  
