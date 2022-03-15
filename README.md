@@ -1,5 +1,7 @@
 # sbd-data-aopwiki
 
+The SPARQL endpoint used in this repository is described in this paper: https://doi.org/10.1089/aivt.2021.0010
+
 ## Getting the AOP models
 
 Run the following commmands to create the `sbd:Model`s:
