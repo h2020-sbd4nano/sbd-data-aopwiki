@@ -18,7 +18,7 @@
    dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/> ;
    rdfs:label "AOP-Wiki AOP-AO dataset"@en ;
    sbd:endpoint sbdbel:AdverseOutcome ;
-   dcterms:license      <https://www.wikidata.org/wiki/Q50423863> ;
+   dcterms:license      <https://www.wikidata.org/entity/Q50423863> ;
    foaf:page <https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FAO+%3FAOTitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_adverse_outcome+%3FAO.%0D%0A%3FAO+dc%3Atitle+%3FAOTitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+>.
    
 <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/ke/>
@@ -26,7 +26,7 @@
    dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/> ;
    rdfs:label "AOP-Wiki AOP-KE dataset"@en ;
    sbd:endpoint sbdbel:KeyEvent ;
-   dcterms:license      <https://www.wikidata.org/wiki/Q50423863> ;
+   dcterms:license      <https://www.wikidata.org/entity/Q50423863> ;
    foaf:page <https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FAOP+%3FAOPTitle+%3FKE+%3FKETitle+WHERE+%7B%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Adc%3Atitle+%3FAOPTitle+%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKETitle+.%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+> .
 
 <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/mie/>
@@ -34,5 +34,5 @@
    dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/> ;
    rdfs:label "AOP-Wiki MIE-KE dataset"@en ;
    sbd:endpoint sbdbel:KeyEvent ;
-   dcterms:license      <https://www.wikidata.org/wiki/Q50423863> ;
+   dcterms:license      <https://www.wikidata.org/entity/Q50423863> ;
    foaf:page <https://aopwiki.rdf.bigcat-bioinformatics.org/sparql?default-graph-uri=&query=SELECT+%3FMIE+%3FMolecularInitiatingEventName+%3FKE+%3FKeyEventName+WHERE+%7B%0D%0A%3FMIE+dc%3Atitle+%3FMolecularInitiatingEventName+.%0D%0A%3FAOP+a+aopo%3AAdverseOutcomePathway+%3B%0D%0Aaopo%3Ahas_molecular_initiating_event+%3FMIE%3B%0D%0Aaopo%3Ahas_key_event+%3FKE.%0D%0A%3FKE+dc%3Atitle+%3FKeyEventName+.%0D%0AFILTER+%28%3FMIE+%21%3D+%3FKE%29%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+> .
