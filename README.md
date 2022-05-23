@@ -13,6 +13,14 @@ groovy createModels.groovy | tee aops.ttl
 
 The used query is based on the below query for adverse outcomes.
 
+## Getting the KERs
+
+```shell
+curl -H "Accept: text/csv" --data-urlencode query@sparql/kers.rq -G https://aopwiki.rdf.bigcat-bioinformatics.org/sparql -o kers.csv
+groovy createRelationships.groovy | tee aopwiki-relationships.ttl
+```
+
+
 ## AOP-Wiki SPARQL queries for datasets:
 
 AOP-AO:

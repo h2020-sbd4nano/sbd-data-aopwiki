@@ -1,0 +1,6 @@
+SELECT ?KER ?KEup ?KEuptitle ?KEdown ?KEdowntitle WHERE { 
+  ?KER a aopo:KeyEventRelationship ; 
+  aopo:has_upstream_key_event ?KEup; aopo:has_downstream_key_event ?KEdown.
+  ?KEup dc:title ?KEuptitle .
+  ?KEdown dc:title ?KEdowntitle .
+}
