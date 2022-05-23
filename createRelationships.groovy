@@ -36,8 +36,8 @@ for (line in data_iterator) {
     println "  sbdbel:outcome <${line[3]}> ;"
     println "  dcterms:license      <http://example.com/unknown> ."
     println ""
-    println "  <${line[1]}> rdfs:label \"${line[2]}\"@en ;"
-    println "  <${line[3]}> rdfs:label \"${line[4]}\"@en ;"
+    println "<${line[1]}> rdfs:label \"${line[2]}\"@en ."
+    println "<${line[3]}> rdfs:label \"${line[4]}\"@en ."
     println ""
   }
 }
