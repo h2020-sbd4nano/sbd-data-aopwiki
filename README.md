@@ -43,3 +43,14 @@ aopo:has_key_event ?KE.
 ?KE dc:title ?KeyEventName .
 FILTER (?MIE != ?KE)}
 ```
+
+## AOP-Wiki SPARQL for causal relationships (KERs)
+
+```sparql
+SELECT ?KER ?KEup ?KEuptitle ?KEdown ?KEdowntitle WHERE { 
+  ?KER a aopo:KeyEventRelationship ; 
+  aopo:has_upstream_key_event ?KEup; aopo:has_downstream_key_event ?KEdown.
+  ?KEup dc:title ?KEuptitle .
+  ?KEdown dc:title ?KEdowntitle .
+}
+```
