@@ -15,7 +15,7 @@ println "@prefix dcterms: <http://purl.org/dc/terms/> ."
 println "@prefix sbd:     <https://www.sbd4nano.eu/rdf/#> ."
 println "@prefix sbdbel:  <https://www.sbd4nano.eu/bel/#> ."
 println "@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> ."
-println "@prefix pav:     <http://purl.org/pav/>"
+println "@prefix pav:     <http://purl.org/pav/> ."
 println ""
 
 println "<https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/>"

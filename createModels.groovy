@@ -13,7 +13,7 @@ println "@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> ."
 println "@prefix sbd:     <https://www.sbd4nano.eu/rdf/#> ."
 println "@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> ."
 println "@prefix void:    <http://rdfs.org/ns/void#> ."
-println "@prefix pav:     <http://purl.org/pav/>"
+println "@prefix pav:     <http://purl.org/pav/> ."
 println ""
 
 println "<https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/>"
