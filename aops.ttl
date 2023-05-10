@@ -5,7 +5,7 @@
 @prefix sbd:     <https://www.sbd4nano.eu/rdf/#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 @prefix void:    <http://rdfs.org/ns/void#> .
-@prefix pav:     <http://purl.org/pav/>
+@prefix pav:     <http://purl.org/pav/> .
 
 <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/>
  a                    void:DatasetDescription ;

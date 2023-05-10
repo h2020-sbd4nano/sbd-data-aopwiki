@@ -7,7 +7,7 @@
 @prefix sbd:     <https://www.sbd4nano.eu/rdf/#> .
 @prefix sbdbel:  <https://www.sbd4nano.eu/bel/#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
-@prefix pav:     <http://purl.org/pav/>
+@prefix pav:     <http://purl.org/pav/> .
 
 <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/>
  a                    void:DatasetDescription ;
