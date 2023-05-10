@@ -6,11 +6,14 @@ def csv_content = fh.getText('utf-8')
  
 def data_iterator = parseCsv(csv_content, separator: ',', readFirstLine: true)
 
-println "PREFIX sbd:   <https://www.sbd4nano.eu/rdf/#>"
-println "PREFIX foaf:  <http://xmlns.com/foaf/0.1/>"
-println "PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>"
-println "PREFIX dc:    <http://purl.org/dc/elements/1.1/>"
-println "PREFIX pav:     <http://purl.org/pav/>"
+println "@prefix dc:      <http://purl.org/dc/elements/1.1/> ."
+println "@prefix dcterms: <http://purl.org/dc/terms/> ."
+println "@prefix foaf:    <http://xmlns.com/foaf/0.1/> ."
+println "@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> ."
+println "@prefix sbd:     <https://www.sbd4nano.eu/rdf/#> ."
+println "@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> ."
+println "@prefix void:    <http://rdfs.org/ns/void#> ."
+println "@prefix pav:     <http://purl.org/pav/>"
 println ""
 
 println "<https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/>"
