@@ -10,6 +10,7 @@ println "PREFIX sbd:   <https://www.sbd4nano.eu/rdf/#>"
 println "PREFIX foaf:  <http://xmlns.com/foaf/0.1/>"
 println "PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>"
 println "PREFIX dc:    <http://purl.org/dc/elements/1.1/>"
+println "PREFIX pav:     <http://purl.org/pav/>"
 println ""
 
 println "<https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/>"
@@ -17,6 +18,9 @@ println " a                    void:DatasetDescription ;"
 println " foaf:img             <https://aopwiki.rdf.bigcat-bioinformatics.org/assets/images/aopwiki-snorql-logo.png> ;"
 println " dc:source            <https://aopwiki.rdf.bigcat-bioinformatics.org/> ;"
 println " dcterms:title        \"AOP-Wiki AOPs\"@en ;"
+println " dcterms:description  \"Models based on the AOP-Wiki AOPs that predict that even certain KEs happen, that the AO also happens\"@en ;"
+println " dcterms:publisher    <https://github.com/h2020-sbd4nano/sbd-data-aopwiki> ;"
+println " pav:createdBy        <https://github.com/h2020-sbd4nano/sbd-data-aopwiki> ;"
 println " dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ."
 println ""
 
@@ -28,7 +32,7 @@ for (line in data_iterator) {
     description = line[2].replace("\n"," ").replace("\"", "\\\"").trim()
     println "  dc:description \"${description}\"@en ;"
     println "  foaf:page <${line[0]}> ;"
-    println "  dcterms:license      <http://example.com/unknown> ."
+    println "  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> ."
     println ""
   }
 }
