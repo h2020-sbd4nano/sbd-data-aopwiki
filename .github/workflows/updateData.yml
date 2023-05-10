@@ -1,0 +1,40 @@
+name: Update AOP models
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 13 * *"
+  push:
+    paths:
+      - '*.groovy'
+
+jobs:
+  bioschemas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Install groovy
+        run: sudo apt install groovy
+
+      - name: Extract Bioschemas
+        run: |
+          curl -H "Accept: text/csv" --data-urlencode query@sparql/aops.rq -G https://aopwiki.rdf.bigcat-bioinformatics.org/sparql -o aops.csv
+          groovy createModels.groovy | tee aops.ttl
+          curl -H "Accept: text/csv" --data-urlencode query@sparql/kers.rq -G https://aopwiki.rdf.bigcat-bioinformatics.org/sparql -o kers.csv
+          groovy createRelationships.groovy | tee aopwiki-relationships.ttl
+
+      - name: Commit Turtle
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add *.ttl
+          if git diff --exit-code --staged; then
+              echo "No changes"
+          else
+              git commit -m 'Extracted new AOP models as Turtle'
+              git push
+          fi
