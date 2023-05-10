@@ -1,8 +1,11 @@
-PREFIX sbd:   <https://www.sbd4nano.eu/rdf/#>
-PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
-PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX dc:    <http://purl.org/dc/elements/1.1/>
-PREFIX pav:     <http://purl.org/pav/>
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd:     <https://www.sbd4nano.eu/rdf/#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix pav:     <http://purl.org/pav/>
 
 <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/>
  a                    void:DatasetDescription ;
