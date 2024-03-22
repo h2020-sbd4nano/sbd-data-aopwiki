@@ -1,3 +1,5 @@
+[![Update AOP models](https://github.com/h2020-sbd4nano/sbd-data-aopwiki/actions/workflows/updateData.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-aopwiki/actions/workflows/updateData.yml)
+
 # sbd-data-aopwiki
 
 The SPARQL endpoint used in this repository is described in this paper: https://doi.org/10.1089/aivt.2021.0010
