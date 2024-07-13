@@ -250,17 +250,6 @@
 <https://identifiers.org/aop.events/1115> rdfs:label "Increased, Reactive oxygen species"@en .
 <https://identifiers.org/aop.events/233> rdfs:label "Decreased, PPAR-gamma activation"@en .
 
-<https://identifiers.org/aop.relationships/1162> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1162"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1115> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1088> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1115> rdfs:label "Increased, Reactive oxygen species"@en .
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
-
 <https://identifiers.org/aop.relationships/2320> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2320"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -480,6 +469,17 @@
 
 <https://identifiers.org/aop.events/1262> rdfs:label "Apoptosis"@en .
 <https://identifiers.org/aop.events/1549> rdfs:label "Liver Injury"@en .
+
+<https://identifiers.org/aop.relationships/3257> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3257"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1262> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/188> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1262> rdfs:label "Apoptosis"@en .
+<https://identifiers.org/aop.events/188> rdfs:label "Neuroinflammation"@en .
 
 <https://identifiers.org/aop.relationships/2968> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2968"@en ;
@@ -767,17 +767,6 @@
 <https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 <https://identifiers.org/aop.events/1908> rdfs:label "Cilia Beat Frequency, Decreased"@en .
 
-<https://identifiers.org/aop.relationships/3116> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3116"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1445> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
-<https://identifiers.org/aop.events/1445> rdfs:label "Increase, Lipid peroxidation"@en .
-
 <https://identifiers.org/aop.relationships/3129> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3129"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -788,6 +777,94 @@
 
 <https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 <https://identifiers.org/aop.events/177> rdfs:label "Mitochondrial dysfunction"@en .
+
+<https://identifiers.org/aop.relationships/3249> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3249"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1262> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/1262> rdfs:label "Apoptosis"@en .
+
+<https://identifiers.org/aop.relationships/3252> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3252"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/188> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/188> rdfs:label "Neuroinflammation"@en .
+
+<https://identifiers.org/aop.relationships/3274> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3274"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/277> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/277> rdfs:label "Thyroid hormone synthesis, Decreased"@en .
+
+<https://identifiers.org/aop.relationships/3262> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3262"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1032> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/1032> rdfs:label "Increased, secretion of local growth factors"@en .
+
+<https://identifiers.org/aop.relationships/3264> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3264"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1097> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/1097> rdfs:label "Occurrence, renal proximal tubular necrosis"@en .
+
+<https://identifiers.org/aop.relationships/3267> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3267"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1194> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/1194> rdfs:label "Increase, DNA damage"@en .
+
+<https://identifiers.org/aop.relationships/3270> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3270"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1365> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/1365> rdfs:label "Increase, Apoptosis"@en .
+
+<https://identifiers.org/aop.relationships/3284> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3284"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/932> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/932> rdfs:label "KE4 : Uncoupling, eNOS"@en .
 
 <https://identifiers.org/aop.relationships/1514> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1514"@en ;
@@ -1603,16 +1680,16 @@
 <https://identifiers.org/aop.events/1632> rdfs:label "Increase in reactive oxygen and nitrogen species (RONS)"@en .
 <https://identifiers.org/aop.events/1194> rdfs:label "Increase, DNA damage"@en .
 
-<https://identifiers.org/aop.relationships/2617> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2617"@en ;
+<https://identifiers.org/aop.relationships/3268> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3268"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
   sbdbel:cause <https://identifiers.org/aop.events/1632> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1088> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1632> rdfs:label "Increase in reactive oxygen and nitrogen species (RONS)"@en .
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/1909> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1909"@en ;
@@ -2923,6 +3000,17 @@
 <https://identifiers.org/aop.events/188> rdfs:label "Neuroinflammation"@en .
 <https://identifiers.org/aop.events/386> rdfs:label "Decrease of neuronal network function"@en .
 
+<https://identifiers.org/aop.relationships/3255> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3255"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/188> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/341> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/188> rdfs:label "Neuroinflammation"@en .
+<https://identifiers.org/aop.events/341> rdfs:label "Impairment, Learning and memory"@en .
+
 <https://identifiers.org/aop.relationships/2401> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2401"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -3131,50 +3219,6 @@
 
 <https://identifiers.org/aop.events/195> rdfs:label "Inhibition, NMDARs"@en .
 <https://identifiers.org/aop.events/52> rdfs:label "Decreased, Calcium influx"@en .
-
-<https://identifiers.org/aop.relationships/2897> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2897"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/277> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/277> rdfs:label "Thyroid hormone synthesis, Decreased"@en .
-
-<https://identifiers.org/aop.relationships/3003> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3003"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/932> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/932> rdfs:label "KE4 : Uncoupling, eNOS"@en .
-
-<https://identifiers.org/aop.relationships/3033> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3033"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1365> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/1365> rdfs:label "Increase, Apoptosis"@en .
-
-<https://identifiers.org/aop.relationships/3130> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3130"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/177> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/177> rdfs:label "Mitochondrial dysfunction"@en .
 
 <https://identifiers.org/aop.relationships/2582> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2582"@en ;
@@ -4639,16 +4683,16 @@
 <https://identifiers.org/aop.events/850> rdfs:label "Induction, CYP1A2/CYP1A5"@en .
 <https://identifiers.org/aop.events/844> rdfs:label "Oxidation, Uroporphyrinogen"@en .
 
-<https://identifiers.org/aop.relationships/2907> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2907"@en ;
+<https://identifiers.org/aop.relationships/3275> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3275"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
   sbdbel:cause <https://identifiers.org/aop.events/850> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1969> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/850> rdfs:label "Induction, CYP1A2/CYP1A5"@en .
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/871> a sbdbel:CausalAssertion ;
   rdfs:label "KER 871"@en ;
@@ -5860,16 +5904,16 @@
 <https://identifiers.org/aop.events/1086> rdfs:label "persistent, cytotoxicity (pleura or peritoneum)"@en .
 <https://identifiers.org/aop.events/1087> rdfs:label "Increased, inflammation"@en .
 
-<https://identifiers.org/aop.relationships/1126> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1126"@en ;
+<https://identifiers.org/aop.relationships/3261> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3261"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
   sbdbel:cause <https://identifiers.org/aop.events/1086> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1088> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1086> rdfs:label "persistent, cytotoxicity (pleura or peritoneum)"@en .
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/1127> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1127"@en ;
@@ -5881,61 +5925,6 @@
 
 <https://identifiers.org/aop.events/1087> rdfs:label "Increased, inflammation"@en .
 <https://identifiers.org/aop.events/1032> rdfs:label "Increased, secretion of local growth factors"@en .
-
-<https://identifiers.org/aop.relationships/1128> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1128"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1088> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1032> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/1032> rdfs:label "Increased, secretion of local growth factors"@en .
-
-<https://identifiers.org/aop.relationships/1160> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1160"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1088> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1097> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/1097> rdfs:label "Occurrence, renal proximal tubular necrosis"@en .
-
-<https://identifiers.org/aop.relationships/1300> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1300"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1088> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1194> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/1194> rdfs:label "Increase, DNA damage"@en .
-
-<https://identifiers.org/aop.relationships/2618> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2618"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1088> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1365> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/1365> rdfs:label "Increase, Apoptosis"@en .
-
-<https://identifiers.org/aop.relationships/3160> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3160"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1088> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/177> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/177> rdfs:label "Mitochondrial dysfunction"@en .
 
 <https://identifiers.org/aop.relationships/1130> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1130"@en ;
@@ -5959,16 +5948,16 @@
 <https://identifiers.org/aop.events/1096> rdfs:label "Increased, blood uric acid concentration"@en .
 <https://identifiers.org/aop.events/1102> rdfs:label "Occurrence, tophi (urate) deposition"@en .
 
-<https://identifiers.org/aop.relationships/1158> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1158"@en ;
+<https://identifiers.org/aop.relationships/3263> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3263"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
   sbdbel:cause <https://identifiers.org/aop.events/1096> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1088> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1096> rdfs:label "Increased, blood uric acid concentration"@en .
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/1134> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1134"@en ;
@@ -6047,16 +6036,16 @@
 <https://identifiers.org/aop.events/1104> rdfs:label "Decreased, Prostaglandin F2alpha concentration, plasma "@en .
 <https://identifiers.org/aop.events/1105> rdfs:label "Occurrence, renal ischemia"@en .
 
-<https://identifiers.org/aop.relationships/1159> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1159"@en ;
+<https://identifiers.org/aop.relationships/3265> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3265"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
   sbdbel:cause <https://identifiers.org/aop.events/1105> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1088> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1105> rdfs:label "Occurrence, renal ischemia"@en .
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/1155> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1155"@en ;
@@ -6751,17 +6740,6 @@
 <https://identifiers.org/aop.events/1239> rdfs:label "Altered, Gene Expression"@en .
 <https://identifiers.org/aop.events/1240> rdfs:label "Altered, Protein Production"@en .
 
-<https://identifiers.org/aop.relationships/1299> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1299"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1240> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1088> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1240> rdfs:label "Altered, Protein Production"@en .
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
-
 <https://identifiers.org/aop.relationships/1303> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1303"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -6794,6 +6772,17 @@
 
 <https://identifiers.org/aop.events/1240> rdfs:label "Altered, Protein Production"@en .
 <https://identifiers.org/aop.events/1241> rdfs:label "Increased, Motility"@en .
+
+<https://identifiers.org/aop.relationships/3266> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3266"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1240> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1240> rdfs:label "Altered, Protein Production"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/1306> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1306"@en ;
@@ -8324,16 +8313,16 @@
 <https://identifiers.org/aop.events/1417> rdfs:label "NFE2/Nrf2 repression"@en .
 <https://identifiers.org/aop.events/1419> rdfs:label "Reduced, FXR activity"@en .
 
-<https://identifiers.org/aop.relationships/2979> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2979"@en ;
+<https://identifiers.org/aop.relationships/3276> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3276"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
   sbdbel:cause <https://identifiers.org/aop.events/1417> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1969> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1417> rdfs:label "NFE2/Nrf2 repression"@en .
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/1557> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1557"@en ;
@@ -8510,17 +8499,6 @@
 
 <https://identifiers.org/aop.events/1448> rdfs:label "activation of CCAAT/enhancer-binding protein alpha"@en .
 <https://identifiers.org/aop.events/1028> rdfs:label "Activation of specific nuclear receptors, PPAR-gamma activation"@en .
-
-<https://identifiers.org/aop.relationships/1612> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1612"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1449> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1447> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1449> rdfs:label "increased adipogenesis"@en .
-<https://identifiers.org/aop.events/1447> rdfs:label "obesity"@en .
 
 <https://identifiers.org/aop.relationships/386> a sbdbel:CausalAssertion ;
   rdfs:label "KER 386"@en ;
@@ -9479,16 +9457,16 @@
 <https://identifiers.org/aop.events/1915> rdfs:label "Neutrophil activation, Increased "@en .
 <https://identifiers.org/aop.events/1857> rdfs:label "Platelet-neutrophil interactions, Increased "@en .
 
-<https://identifiers.org/aop.relationships/2642> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2642"@en ;
+<https://identifiers.org/aop.relationships/3271> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3271"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
   sbdbel:cause <https://identifiers.org/aop.events/1917> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1088> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1917> rdfs:label "Altered gene expression, NRF2 dependent antioxidant pathway"@en .
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/2468> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2468"@en ;
@@ -9798,16 +9776,16 @@
 <https://identifiers.org/aop.events/211> rdfs:label "Propagation, Oxidative stress"@en .
 <https://identifiers.org/aop.events/131> rdfs:label "Down Regulation, Gulcose-6-phosphate dehydrogenase"@en .
 
-<https://identifiers.org/aop.relationships/2896> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2896"@en ;
+<https://identifiers.org/aop.relationships/3273> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3273"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
   sbdbel:cause <https://identifiers.org/aop.events/2120> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1969> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/2120> rdfs:label "Superoxide generation, increased"@en .
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/2870> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2870"@en ;
@@ -9952,16 +9930,16 @@
 <https://identifiers.org/aop.events/2155> rdfs:label "Inhibition of Sulfotransferase E1 (SULT1E1)"@en .
 <https://identifiers.org/aop.events/1973> rdfs:label "Increased, estrogens "@en .
 
-<https://identifiers.org/aop.relationships/2989> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2989"@en ;
+<https://identifiers.org/aop.relationships/3278> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3278"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
   sbdbel:cause <https://identifiers.org/aop.events/2165> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1969> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/2165> rdfs:label "Activation of PPAR"@en .
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/3036> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3036"@en ;
@@ -10183,17 +10161,6 @@
 <https://identifiers.org/aop.events/257> rdfs:label "Increase, Reactive Oxygen Species production"@en .
 <https://identifiers.org/aop.events/1634> rdfs:label "Increase, Oxidative damage to DNA"@en .
 
-<https://identifiers.org/aop.relationships/2998> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2998"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/257> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1969> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/257> rdfs:label "Increase, Reactive Oxygen Species production"@en .
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-
 <https://identifiers.org/aop.relationships/3235> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3235"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -10336,6 +10303,17 @@
 
 <https://identifiers.org/aop.events/389> rdfs:label "Increased, Intracellular Calcium overload"@en .
 <https://identifiers.org/aop.events/55> rdfs:label "Increase, Cell injury/death"@en .
+
+<https://identifiers.org/aop.relationships/3248> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3248"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/389> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/389> rdfs:label "Increased, Intracellular Calcium overload"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/2410> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2410"@en ;
@@ -11008,6 +10986,17 @@
 <https://identifiers.org/aop.events/2208> rdfs:label "Aberrant, synaptic formation and plasticity"@en .
 <https://identifiers.org/aop.events/386> rdfs:label "Decrease of neuronal network function"@en .
 
+<https://identifiers.org/aop.relationships/3253> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3253"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2208> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/341> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2208> rdfs:label "Aberrant, synaptic formation and plasticity"@en .
+<https://identifiers.org/aop.events/341> rdfs:label "Impairment, Learning and memory"@en .
+
 <https://identifiers.org/aop.relationships/3181> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3181"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -11018,6 +11007,17 @@
 
 <https://identifiers.org/aop.events/2216> rdfs:label "Binding of antagonist to thyroid hormone receptor"@en .
 <https://identifiers.org/aop.events/1656> rdfs:label "Antagonism, Thyroid Receptor "@en .
+
+<https://identifiers.org/aop.relationships/3254> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3254"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2233> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1262> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2233> rdfs:label "Decreased, ERαβ heterodimers"@en .
+<https://identifiers.org/aop.events/1262> rdfs:label "Apoptosis"@en .
 
 <https://identifiers.org/aop.relationships/2376> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2376"@en ;
@@ -11272,6 +11272,28 @@
 <https://identifiers.org/aop.events/1262> rdfs:label "Apoptosis"@en .
 <https://identifiers.org/aop.events/2200> rdfs:label "decline, neural progenitor cells"@en .
 
+<https://identifiers.org/aop.relationships/3250> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3250"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1262> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2208> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1262> rdfs:label "Apoptosis"@en .
+<https://identifiers.org/aop.events/2208> rdfs:label "Aberrant, synaptic formation and plasticity"@en .
+
+<https://identifiers.org/aop.relationships/3251> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3251"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1262> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2151> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1262> rdfs:label "Apoptosis"@en .
+<https://identifiers.org/aop.events/2151> rdfs:label "Disruption, neurotransmitter release"@en .
+
 <https://identifiers.org/aop.relationships/1351> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1351"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -11404,6 +11426,17 @@
 <https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 <https://identifiers.org/aop.events/1585> rdfs:label "Proteasomal dysfunction"@en .
 
+<https://identifiers.org/aop.relationships/3116> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3116"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1445> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/1445> rdfs:label "Increase, Lipid peroxidation"@en .
+
 <https://identifiers.org/aop.relationships/3239> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3239"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -11414,6 +11447,105 @@
 
 <https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
 <https://identifiers.org/aop.events/1775> rdfs:label "Increase, Oocyte apoptosis"@en .
+
+<https://identifiers.org/aop.relationships/3272> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3272"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2144> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/2144> rdfs:label "Impaired insulin signaling"@en .
+
+<https://identifiers.org/aop.relationships/3277> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3277"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2009> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/2009> rdfs:label "Activation of inflammation pathway"@en .
+
+<https://identifiers.org/aop.relationships/3279> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3279"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2166> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/2166> rdfs:label "Abnormal expression of NO"@en .
+
+<https://identifiers.org/aop.relationships/3280> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3280"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2170> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/2170> rdfs:label "Activated ANG/Tie2 pathway"@en .
+
+<https://identifiers.org/aop.relationships/3281> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3281"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2164> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/2164> rdfs:label "Activation, Dll4-Notch pathway"@en .
+
+<https://identifiers.org/aop.relationships/3282> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3282"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2171> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/2171> rdfs:label "Activated BMP/TGF-beta pathway"@en .
+
+<https://identifiers.org/aop.relationships/3283> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3283"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2172> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/2172> rdfs:label "Activated Wnt/Frizzled pathway"@en .
+
+<https://identifiers.org/aop.relationships/3285> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3285"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2173> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/2173> rdfs:label "Activated AKT/ERK/PI3K pathway"@en .
+
+<https://identifiers.org/aop.relationships/3286> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3286"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2174> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Oxidative Stress "@en .
+<https://identifiers.org/aop.events/2174> rdfs:label "Inhibition VEGF/VEGFR pathway"@en .
 
 <https://identifiers.org/aop.relationships/2203> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2203"@en ;
@@ -11986,17 +12118,6 @@
 
 <https://identifiers.org/aop.events/1643> rdfs:label "Altered, Visual function"@en .
 <https://identifiers.org/aop.events/360> rdfs:label "Decrease, Population growth rate"@en .
-
-<https://identifiers.org/aop.relationships/3186> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3186"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1656> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2223> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1656> rdfs:label "Antagonism, Thyroid Receptor "@en .
-<https://identifiers.org/aop.events/2223> rdfs:label "Reduced number of oligodendrocytes"@en .
 
 <https://identifiers.org/aop.relationships/3193> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3193"@en ;
@@ -12756,94 +12877,6 @@
 
 <https://identifiers.org/aop.events/195> rdfs:label "Inhibition, NMDARs"@en .
 <https://identifiers.org/aop.events/2208> rdfs:label "Aberrant, synaptic formation and plasticity"@en .
-
-<https://identifiers.org/aop.relationships/2980> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2980"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2009> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/2009> rdfs:label "Activation of inflammation pathway"@en .
-
-<https://identifiers.org/aop.relationships/2993> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2993"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2166> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/2166> rdfs:label "Abnormal expression of NO"@en .
-
-<https://identifiers.org/aop.relationships/2999> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2999"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2170> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/2170> rdfs:label "Activated ANG/Tie2 pathway"@en .
-
-<https://identifiers.org/aop.relationships/3000> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3000"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2164> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/2164> rdfs:label "Activation, Dll4-Notch pathway"@en .
-
-<https://identifiers.org/aop.relationships/3001> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3001"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2171> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/2171> rdfs:label "Activated BMP/TGF-beta pathway"@en .
-
-<https://identifiers.org/aop.relationships/3002> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3002"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2172> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/2172> rdfs:label "Activated Wnt/Frizzled pathway"@en .
-
-<https://identifiers.org/aop.relationships/3004> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3004"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2173> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/2173> rdfs:label "Activated AKT/ERK/PI3K pathway"@en .
-
-<https://identifiers.org/aop.relationships/3005> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3005"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1969> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2174> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1969> rdfs:label "Increase, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/2174> rdfs:label "Inhibition VEGF/VEGFR pathway"@en .
 
 <https://identifiers.org/aop.relationships/2606> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2606"@en ;
@@ -14275,17 +14308,6 @@
 <https://identifiers.org/aop.events/1065> rdfs:label "Activation, estrogen receptor alpha"@en .
 <https://identifiers.org/aop.events/2152> rdfs:label "Epigenetic modification process"@en .
 
-<https://identifiers.org/aop.relationships/2933> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2933"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1088> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2144> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1088> rdfs:label "Increased, Oxidative Stress"@en .
-<https://identifiers.org/aop.events/2144> rdfs:label "Impaired insulin signaling"@en .
-
 <https://identifiers.org/aop.relationships/3236> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3236"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -14934,6 +14956,17 @@
 
 <https://identifiers.org/aop.events/1448> rdfs:label "activation of CCAAT/enhancer-binding protein alpha"@en .
 <https://identifiers.org/aop.events/1449> rdfs:label "increased adipogenesis"@en .
+
+<https://identifiers.org/aop.relationships/1612> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 1612"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1449> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1447> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1449> rdfs:label "increased adipogenesis"@en .
+<https://identifiers.org/aop.events/1447> rdfs:label "obesity"@en .
 
 <https://identifiers.org/aop.relationships/1614> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1614"@en ;
@@ -16607,17 +16640,6 @@
 <https://identifiers.org/aop.events/179> rdfs:label "Decreased, Mitochondrial fatty acid beta-oxidation"@en .
 <https://identifiers.org/aop.events/327> rdfs:label "Accumulation, Fatty acid"@en .
 
-<https://identifiers.org/aop.relationships/3209> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3209"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/179> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2225> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/179> rdfs:label "Decreased, Mitochondrial fatty acid beta-oxidation"@en .
-<https://identifiers.org/aop.events/2225> rdfs:label "Disrupted Lipid Storage"@en .
-
 <https://identifiers.org/aop.relationships/2157> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2157"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -17575,6 +17597,17 @@
 <https://identifiers.org/aop.events/2026> rdfs:label "decreased folate uptake"@en .
 <https://identifiers.org/aop.events/1561> rdfs:label "Neural tube defects"@en .
 
+<https://identifiers.org/aop.relationships/3246> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3246"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2029> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/389> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2029> rdfs:label "protein-coupled estrogen receptor 1 (GPER) activation"@en .
+<https://identifiers.org/aop.events/389> rdfs:label "Increased, Intracellular Calcium overload"@en .
+
 <https://identifiers.org/aop.relationships/2703> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2703"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -17992,28 +18025,6 @@
 
 <https://identifiers.org/aop.events/211> rdfs:label "Propagation, Oxidative stress"@en .
 <https://identifiers.org/aop.events/250> rdfs:label "Damaging, Red blood cells; hemolysis"@en .
-
-<https://identifiers.org/aop.relationships/3189> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3189"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2115> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2223> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/2115> rdfs:label "Altered, cholesterol metabolism"@en .
-<https://identifiers.org/aop.events/2223> rdfs:label "Reduced number of oligodendrocytes"@en .
-
-<https://identifiers.org/aop.relationships/3196> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3196"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2115> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2221> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/2115> rdfs:label "Altered, cholesterol metabolism"@en .
-<https://identifiers.org/aop.events/2221> rdfs:label "Altered Liver X receptor activity"@en .
 
 <https://identifiers.org/aop.relationships/2867> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2867"@en ;
@@ -18576,6 +18587,17 @@
 <https://identifiers.org/aop.events/220> rdfs:label "Increase, Plasma vitellogenin concentrations"@en .
 <https://identifiers.org/aop.events/252> rdfs:label "Increase, Renal pathology due to VTG deposition"@en .
 
+<https://identifiers.org/aop.relationships/3259> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3259"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/220> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/364> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/220> rdfs:label "Increase, Plasma vitellogenin concentrations"@en .
+<https://identifiers.org/aop.events/364> rdfs:label "Impaired development of, Reproductive organs"@en .
+
 <https://identifiers.org/aop.relationships/1769> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1769"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -18740,6 +18762,17 @@
 
 <https://identifiers.org/aop.events/252> rdfs:label "Increase, Renal pathology due to VTG deposition"@en .
 <https://identifiers.org/aop.events/339> rdfs:label "Altered, Larval development"@en .
+
+<https://identifiers.org/aop.relationships/3258> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3258"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/252> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/351> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/252> rdfs:label "Increase, Renal pathology due to VTG deposition"@en .
+<https://identifiers.org/aop.events/351> rdfs:label "Increased Mortality"@en .
 
 <https://identifiers.org/aop.relationships/2089> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2089"@en ;
@@ -19005,6 +19038,17 @@
 <https://identifiers.org/aop.events/351> rdfs:label "Increased Mortality"@en .
 <https://identifiers.org/aop.events/765> rdfs:label "Decreased, population 1"@en .
 
+<https://identifiers.org/aop.relationships/3260> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3260"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/364> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/78> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/364> rdfs:label "Impaired development of, Reproductive organs"@en .
+<https://identifiers.org/aop.events/78> rdfs:label "Reduction, Cumulative fecundity and spawning"@en .
+
 <https://identifiers.org/aop.relationships/361> a sbdbel:CausalAssertion ;
   rdfs:label "KER 361"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -19081,6 +19125,17 @@
 
 <https://identifiers.org/aop.events/389> rdfs:label "Increased, Intracellular Calcium overload"@en .
 <https://identifiers.org/aop.events/2078> rdfs:label "Loss of drebrin"@en .
+
+<https://identifiers.org/aop.relationships/3256> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3256"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/389> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2151> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/389> rdfs:label "Increased, Intracellular Calcium overload"@en .
+<https://identifiers.org/aop.events/2151> rdfs:label "Disruption, neurotransmitter release"@en .
 
 <https://identifiers.org/aop.relationships/2005> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2005"@en ;
@@ -21909,17 +21964,6 @@
 <https://identifiers.org/aop.events/2218> rdfs:label "Binding of (ant)agonist to liver X receptor"@en .
 <https://identifiers.org/aop.events/2115> rdfs:label "Altered, cholesterol metabolism"@en .
 
-<https://identifiers.org/aop.relationships/3185> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3185"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2219> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2222> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/2219> rdfs:label "Binding of (ant)agonist to peroxisome proliferator–activated receptor alpha"@en .
-<https://identifiers.org/aop.events/2222> rdfs:label "Altered peroxisome proliferator–activated receptor alpha activity"@en .
-
 <https://identifiers.org/aop.relationships/3188> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3188"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -21930,28 +21974,6 @@
 
 <https://identifiers.org/aop.events/2219> rdfs:label "Binding of (ant)agonist to peroxisome proliferator–activated receptor alpha"@en .
 <https://identifiers.org/aop.events/2115> rdfs:label "Altered, cholesterol metabolism"@en .
-
-<https://identifiers.org/aop.relationships/3195> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3195"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2219> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2223> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/2219> rdfs:label "Binding of (ant)agonist to peroxisome proliferator–activated receptor alpha"@en .
-<https://identifiers.org/aop.events/2223> rdfs:label "Reduced number of oligodendrocytes"@en .
-
-<https://identifiers.org/aop.relationships/3194> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3194"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2221> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2223> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/2221> rdfs:label "Altered Liver X receptor activity"@en .
-<https://identifiers.org/aop.events/2223> rdfs:label "Reduced number of oligodendrocytes"@en .
 
 <https://identifiers.org/aop.relationships/3190> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3190"@en ;
@@ -21975,17 +21997,6 @@
 <https://identifiers.org/aop.events/2224> rdfs:label "Dysregulation of transcriptional expression within PPAR signaling network"@en .
 <https://identifiers.org/aop.events/179> rdfs:label "Decreased, Mitochondrial fatty acid beta-oxidation"@en .
 
-<https://identifiers.org/aop.relationships/3224> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3224"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2224> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2225> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/2224> rdfs:label "Dysregulation of transcriptional expression within PPAR signaling network"@en .
-<https://identifiers.org/aop.events/2225> rdfs:label "Disrupted Lipid Storage"@en .
-
 <https://identifiers.org/aop.relationships/3210> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3210"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -22008,16 +22019,104 @@
 <https://identifiers.org/aop.events/2225> rdfs:label "Disrupted Lipid Storage"@en .
 <https://identifiers.org/aop.events/291> rdfs:label "Accumulation, Triglyceride"@en .
 
-<https://identifiers.org/aop.relationships/3221> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3221"@en ;
+<https://identifiers.org/aop.relationships/3186> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3186"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2227> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1656> ;
   sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2224> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2223> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/2227> rdfs:label "Disrupted PPAR isoform nuclear signaling"@en .
+<https://identifiers.org/aop.events/1656> rdfs:label "Antagonism, Thyroid Receptor "@en .
+<https://identifiers.org/aop.events/2223> rdfs:label "Reduced number of oligodendrocytes"@en .
+
+<https://identifiers.org/aop.relationships/3209> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3209"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/179> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2225> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/179> rdfs:label "Decreased, Mitochondrial fatty acid beta-oxidation"@en .
+<https://identifiers.org/aop.events/2225> rdfs:label "Disrupted Lipid Storage"@en .
+
+<https://identifiers.org/aop.relationships/3247> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3247"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2029> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2233> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2029> rdfs:label "protein-coupled estrogen receptor 1 (GPER) activation"@en .
+<https://identifiers.org/aop.events/2233> rdfs:label "Decreased, ERαβ heterodimers"@en .
+
+<https://identifiers.org/aop.relationships/3196> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3196"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2115> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2221> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2115> rdfs:label "Altered, cholesterol metabolism"@en .
+<https://identifiers.org/aop.events/2221> rdfs:label "Altered Liver X receptor activity"@en .
+
+<https://identifiers.org/aop.relationships/3189> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3189"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2115> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2223> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2115> rdfs:label "Altered, cholesterol metabolism"@en .
+<https://identifiers.org/aop.events/2223> rdfs:label "Reduced number of oligodendrocytes"@en .
+
+<https://identifiers.org/aop.relationships/3185> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3185"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2219> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2222> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2219> rdfs:label "Binding of (ant)agonist to peroxisome proliferator–activated receptor alpha"@en .
+<https://identifiers.org/aop.events/2222> rdfs:label "Altered peroxisome proliferator–activated receptor alpha activity"@en .
+
+<https://identifiers.org/aop.relationships/3195> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3195"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2219> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2223> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2219> rdfs:label "Binding of (ant)agonist to peroxisome proliferator–activated receptor alpha"@en .
+<https://identifiers.org/aop.events/2223> rdfs:label "Reduced number of oligodendrocytes"@en .
+
+<https://identifiers.org/aop.relationships/3194> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3194"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2221> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2223> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2221> rdfs:label "Altered Liver X receptor activity"@en .
+<https://identifiers.org/aop.events/2223> rdfs:label "Reduced number of oligodendrocytes"@en .
+
+<https://identifiers.org/aop.relationships/3224> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3224"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2224> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2225> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
 <https://identifiers.org/aop.events/2224> rdfs:label "Dysregulation of transcriptional expression within PPAR signaling network"@en .
+<https://identifiers.org/aop.events/2225> rdfs:label "Disrupted Lipid Storage"@en .
 
 <https://identifiers.org/aop.relationships/3220> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3220"@en ;
@@ -22029,4 +22128,15 @@
 
 <https://identifiers.org/aop.events/2226> rdfs:label "Stressor binding PPAR isoforms "@en .
 <https://identifiers.org/aop.events/2227> rdfs:label "Disrupted PPAR isoform nuclear signaling"@en .
+
+<https://identifiers.org/aop.relationships/3221> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3221"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2227> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2224> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2227> rdfs:label "Disrupted PPAR isoform nuclear signaling"@en .
+<https://identifiers.org/aop.events/2224> rdfs:label "Dysregulation of transcriptional expression within PPAR signaling network"@en .
 
