@@ -14042,7 +14042,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/948> rdfs:label "reduced production, VEGF"@en .
-<https://identifiers.org/aop.events/1891> rdfs:label "abnormal, placental labyrinth vasculature morphology"@en .
+<https://identifiers.org/aop.events/1891> rdfs:label "abnormal, placental vasculature morphology"@en .
 
 <https://identifiers.org/aop.relationships/2248> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2248"@en ;
@@ -17165,7 +17165,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/1892> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/1891> rdfs:label "abnormal, placental labyrinth vasculature morphology"@en .
+<https://identifiers.org/aop.events/1891> rdfs:label "abnormal, placental vasculature morphology"@en .
 <https://identifiers.org/aop.events/1892> rdfs:label "increase, placental insufficiency"@en .
 
 <https://identifiers.org/aop.relationships/2409> a sbdbel:CausalAssertion ;
@@ -21491,17 +21491,6 @@
 <https://identifiers.org/aop.events/836> rdfs:label "Occurrence, Cytoplasmic vacuolization (Bile duct cell)"@en .
 <https://identifiers.org/aop.events/838> rdfs:label "Induction, Microvesicular fat"@en .
 
-<https://identifiers.org/aop.relationships/856> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 856"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/836> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/839> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/836> rdfs:label "Occurrence, Cytoplasmic vacuolization (Bile duct cell)"@en .
-<https://identifiers.org/aop.events/839> rdfs:label "Formation, Mallory body"@en .
-
 <https://identifiers.org/aop.relationships/857> a sbdbel:CausalAssertion ;
   rdfs:label "KER 857"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -21655,6 +21644,17 @@
 
 <https://identifiers.org/aop.events/2244> rdfs:label "Altered Stress Response Signaling"@en .
 <https://identifiers.org/aop.events/2068> rdfs:label "Increase, Endothelial Dysfunction"@en .
+
+<https://identifiers.org/aop.relationships/3541> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3541"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2326> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1971> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2326> rdfs:label "Lymphocytes T CD8+ cytotoxicity"@en .
+<https://identifiers.org/aop.events/1971> rdfs:label "Increased, tumor growth"@en .
 
 <https://identifiers.org/aop.relationships/3356> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3356"@en ;
@@ -22910,6 +22910,17 @@
 <https://identifiers.org/aop.events/768> rdfs:label "Increase, Cytotoxicity"@en .
 <https://identifiers.org/aop.events/868> rdfs:label "Increase, Tissue Degeneration, Necrosis & Atrophy "@en .
 
+<https://identifiers.org/aop.relationships/856> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 856"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/836> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/839> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/836> rdfs:label "Occurrence, Cytoplasmic vacuolization (Bile duct cell)"@en .
+<https://identifiers.org/aop.events/839> rdfs:label "Formation, Mallory body"@en .
+
 <https://identifiers.org/aop.relationships/858> a sbdbel:CausalAssertion ;
   rdfs:label "KER 858"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -23020,17 +23031,6 @@
 <https://identifiers.org/aop.events/2323> rdfs:label "Over-expression of PD-L1 in cancer cells"@en .
 <https://identifiers.org/aop.events/2324> rdfs:label "Dysregulation of Treg/Th17 cell ratio"@en .
 
-<https://identifiers.org/aop.relationships/3535> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3535"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2324> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2325> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/2324> rdfs:label "Dysregulation of Treg/Th17 cell ratio"@en .
-<https://identifiers.org/aop.events/2325> rdfs:label "Decreased number of  LT CD8+ cells"@en .
-
 <https://identifiers.org/aop.relationships/3538> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3538"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -23040,7 +23040,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/2324> rdfs:label "Dysregulation of Treg/Th17 cell ratio"@en .
-<https://identifiers.org/aop.events/2326> rdfs:label "Inhibition of LTCD8+ cells"@en .
+<https://identifiers.org/aop.events/2326> rdfs:label "Lymphocytes T CD8+ cytotoxicity"@en .
 
 <https://identifiers.org/aop.relationships/3288> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3288"@en ;
@@ -23074,17 +23074,6 @@
 
 <https://identifiers.org/aop.events/2238> rdfs:label "Increased, Blood viscosity"@en .
 <https://identifiers.org/aop.events/2239> rdfs:label "Increased, Cardiac stress"@en .
-
-<https://identifiers.org/aop.relationships/3539> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3539"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2326> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/2325> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/2326> rdfs:label "Inhibition of LTCD8+ cells"@en .
-<https://identifiers.org/aop.events/2325> rdfs:label "Decreased number of  LT CD8+ cells"@en .
 
 <https://identifiers.org/aop.relationships/3237> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3237"@en ;
