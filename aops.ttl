@@ -941,6 +941,20 @@
   foaf:page <https://identifiers.org/aop/161> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/167> a sbd:Model ;
+  rdfs:label "Early-life estrogen receptor agonism leading to endometrial adenosquamous carcinoma via promotion of SIX1 progenitor cells"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP was as part of an Environmental Protection Agency effort to develop AOPs that establish scientifically supported causal linkages between alternative endpoints measured using new approach methodologies (NAMs) and guideline apical endpoints measured in Tier 1 and Tier 2 test guidelines (U.S. EPA, 2024) employed by the Endocrine Disruptor Screening Program (EDSP).&nbsp; A series of key events that represent significant, measurable, milestones connecting molecular initiation to apical endpoints indicative of adversity were identified based on scientific review articles and empirical studies.&nbsp; Additionally, scientific evidence supporting the causal relationships between each pair of key events was assembled and evaluated.&nbsp; The present effort focused primarily on empirical studies with laboratory rodents and other mammals."@en ;
+  foaf:page <https://identifiers.org/aop/167> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/167> a sbd:Model ;
+  rdfs:label "Early-life estrogen receptor agonism leading to endometrial adenosquamous carcinoma via promotion of SIX1 progenitor cells"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This event is related to Test No. 440: Uterotrophic Bioassay in Rodents and, as such, is part of an international regulatory framework being used by the European Chemicals Agency (ECHA), the U.S. Environmental Protection Agency (EPA), and various other OECD member countries as part of chemical safety evaluation.  The data could be used to identify potential endocrine disrupting chemicals and to support regulatory decisions, pesticide registration, industrial chemical approvals, and consumer product safety decisions.&nbsp; It could also be used to identify chemicals for further testing in the Endocrine Screening Disrupter Program (EDSP) Tier 2 tests."@en ;
+  foaf:page <https://identifiers.org/aop/167> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/17> a sbd:Model ;
   rdfs:label "Binding of electrophilic chemicals to SH(thiol)-group of proteins and /or to seleno-proteins involved in protection against oxidative stress during brain development leads to impairment of learning and memory"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
@@ -2524,21 +2538,21 @@
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/324> a sbd:Model ;
-  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via oxidative DNA damage and cell death"@en ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via uncoupling of oxidative phosphorylation and cell death"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
   foaf:page <https://identifiers.org/aop/324> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/325> a sbd:Model ;
-  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via lipid peroxidation and cell death"@en ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via uncoupling of oxidative phosphorylation and reduced cell growth"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
   foaf:page <https://identifiers.org/aop/325> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/326> a sbd:Model ;
-  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via protein oxidation and cell death"@en ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via uncoupling of oxidative phosphorylation and reduced cell proliferation"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
   foaf:page <https://identifiers.org/aop/326> ;
@@ -2573,21 +2587,21 @@
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/331> a sbd:Model ;
-  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via oxidative DNA damage and reduced cell proliferation"@en ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via lipid peroxidation and cell death"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
   foaf:page <https://identifiers.org/aop/331> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/332> a sbd:Model ;
-  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via lipid peroxidation and reduced cell proliferation"@en ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via lipid peroxidation and reduced cell growth"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
   foaf:page <https://identifiers.org/aop/332> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/333> a sbd:Model ;
-  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via uncoupling of oxidative phosphorylation"@en ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via lipid peroxidation and reduced cell proliferation"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
   foaf:page <https://identifiers.org/aop/333> ;
@@ -5085,6 +5099,90 @@
   foaf:page <https://identifiers.org/aop/589> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/591> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA damage increase in liver leading to Non-alcoholic fatty liver disease via liver steatosis and inhibition of regeneration"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Stressors include:  Ionizing radiation  Estrogen"@en ;
+  foaf:page <https://identifiers.org/aop/591> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/591> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA damage increase in liver leading to Non-alcoholic fatty liver disease via liver steatosis and inhibition of regeneration"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP is developed for zebrafish embryos exposed up to 120 hpf at the larval stage and&nbsp;4 month old transgenic female zebrafish or wild-type female zebrafish. It provides novel insight into the toxic mechanisms of DBDPE as well as other emerging pollutants."@en ;
+  foaf:page <https://identifiers.org/aop/591> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/592> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Maintenance of sustainable fish and wildlife populations (i.e., adequate to ensure long-term delivery of valued ecosystem services) is a widely accepted regulatory goal upon which risk assessments and risk management decisions are based."@en ;
+  foaf:page <https://identifiers.org/aop/592> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/592> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Under REACH, information on reproductive toxicity is required for chemicals with an annual production/importation volume of 10 metric tonnes or more. Standard information requirements include a screening study on reproduction toxicity (OECD TG 421/422) at Annex VIII (10-100 t.p.a), a prenatal developmental toxicity study (OECD 414) on a first species at Annex IX (100-1000 t.p.a), and from March 2015 the OECD 443(Extended One-Generation Reproductive Toxicity Study) is reproductive toxicity requirement instead of the two generation reproductive toxicity study (OECD TG 416). If not conducted already at Annex IX, a prenatal developmental toxicity study on a second species at Annex X (&ge; 1000 t.p.a.).  Under the Biocidal Products Regulation (BPR), information is also required on reproductive toxicity for active substances as part of core data set and additional data set (EU 2012, ECHA 2013). As a core data set, prenatal developmental toxicity study (EU TM B.31) in rabbits as a first species and a two-generation reproduction toxicity study (EU TM B.31) are required. OECD TG 443 (Extended One-Generation Reproductive Toxicity Study) shall be considered as an alternative approach to the multi-generation study.) According to the Classification, Labelling and Packaging (CLP) regulation (EC, 200; Annex I: 3.7.1.1): a) &ldquo;reproductive toxicity&rdquo; includes adverse effects on sexual function and fertility in adult males and females, as well as developmental toxicity in the offspring; b) &ldquo;effects on fertility&rdquo; includes adverse effects on sexual function and fertility; and c) &ldquo;developmental toxicity&rdquo; includes adverse effects on development of the offspring."@en ;
+  foaf:page <https://identifiers.org/aop/592> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/592> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This study is applicable for assessing the toxic effects of DBDPE at environmentally relevant concentrations on the reproductive systems of adult male zebrafish and mammals (mouse spermatogonial cells), particularly suitable for toxicity studies at the level of adult males and germ cells."@en ;
+  foaf:page <https://identifiers.org/aop/592> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/592> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Maintenance of sustainable fish and wildlife populations (i.e., adequate to ensure long-term delivery of valued ecosystem services) is a widely accepted regulatory goal upon which risk assessments and risk management decisions are based."@en ;
+  foaf:page <https://identifiers.org/aop/592> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/592> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Under REACH, information on reproductive toxicity is required for chemicals with an annual production/importation volume of 10 metric tonnes or more. Standard information requirements include a screening study on reproduction toxicity (OECD TG 421/422) at Annex VIII (10-100 t.p.a), a prenatal developmental toxicity study (OECD 414) on a first species at Annex IX (100-1000 t.p.a), and from March 2015 the OECD 443(Extended One-Generation Reproductive Toxicity Study) is reproductive toxicity requirement instead of the two generation reproductive toxicity study (OECD TG 416). If not conducted already at Annex IX, a prenatal developmental toxicity study on a second species at Annex X (&ge; 1000 t.p.a.).  Under the Biocidal Products Regulation (BPR), information is also required on reproductive toxicity for active substances as part of core data set and additional data set (EU 2012, ECHA 2013). As a core data set, prenatal developmental toxicity study (EU TM B.31) in rabbits as a first species and a two-generation reproduction toxicity study (EU TM B.31) are required. OECD TG 443 (Extended One-Generation Reproductive Toxicity Study) shall be considered as an alternative approach to the multi-generation study.) According to the Classification, Labelling and Packaging (CLP) regulation (EC, 200; Annex I: 3.7.1.1): a) &ldquo;reproductive toxicity&rdquo; includes adverse effects on sexual function and fertility in adult males and females, as well as developmental toxicity in the offspring; b) &ldquo;effects on fertility&rdquo; includes adverse effects on sexual function and fertility; and c) &ldquo;developmental toxicity&rdquo; includes adverse effects on development of the offspring."@en ;
+  foaf:page <https://identifiers.org/aop/592> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/592> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This study is applicable for assessing the toxic effects of DBDPE at environmentally relevant concentrations on the reproductive systems of adult male zebrafish and mammals (mouse spermatogonial cells), particularly suitable for toxicity studies at the level of adult males and germ cells."@en ;
+  foaf:page <https://identifiers.org/aop/592> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/592> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Maintenance of sustainable fish and wildlife populations (i.e., adequate to ensure long-term delivery of valued ecosystem services) is a widely accepted regulatory goal upon which risk assessments and risk management decisions are based."@en ;
+  foaf:page <https://identifiers.org/aop/592> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/592> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Under REACH, information on reproductive toxicity is required for chemicals with an annual production/importation volume of 10 metric tonnes or more. Standard information requirements include a screening study on reproduction toxicity (OECD TG 421/422) at Annex VIII (10-100 t.p.a), a prenatal developmental toxicity study (OECD 414) on a first species at Annex IX (100-1000 t.p.a), and from March 2015 the OECD 443(Extended One-Generation Reproductive Toxicity Study) is reproductive toxicity requirement instead of the two generation reproductive toxicity study (OECD TG 416). If not conducted already at Annex IX, a prenatal developmental toxicity study on a second species at Annex X (&ge; 1000 t.p.a.).  Under the Biocidal Products Regulation (BPR), information is also required on reproductive toxicity for active substances as part of core data set and additional data set (EU 2012, ECHA 2013). As a core data set, prenatal developmental toxicity study (EU TM B.31) in rabbits as a first species and a two-generation reproduction toxicity study (EU TM B.31) are required. OECD TG 443 (Extended One-Generation Reproductive Toxicity Study) shall be considered as an alternative approach to the multi-generation study.) According to the Classification, Labelling and Packaging (CLP) regulation (EC, 200; Annex I: 3.7.1.1): a) &ldquo;reproductive toxicity&rdquo; includes adverse effects on sexual function and fertility in adult males and females, as well as developmental toxicity in the offspring; b) &ldquo;effects on fertility&rdquo; includes adverse effects on sexual function and fertility; and c) &ldquo;developmental toxicity&rdquo; includes adverse effects on development of the offspring."@en ;
+  foaf:page <https://identifiers.org/aop/592> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/592> a sbd:Model ;
+  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This study is applicable for assessing the toxic effects of DBDPE at environmentally relevant concentrations on the reproductive systems of adult male zebrafish and mammals (mouse spermatogonial cells), particularly suitable for toxicity studies at the level of adult males and germ cells."@en ;
+  foaf:page <https://identifiers.org/aop/592> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/593> a sbd:Model ;
+  rdfs:label "Redox cycling of a chemical by mitochondria leads to degeneration of nigrostriatal dopaminergic neurons "@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Neurotoxic effects shall be carefully addressed and reported in routine required regulatory toxicological studies (acute toxicity studies,short-term toxicity studies, long term toxicity and carcinogenicity studies and reproductive toxicity studies). Regarding neurotoxicity in rodents, inclusion of neurotoxicity investigations in routine toxicology studies shall also be considered. For pesticide active substances the circumstances in which neurotoxicity studies should be performed are listed in Regulation (EU) No 283/2013:  Specific neurotoxicity studies in rodents shall be performed in case of one those following conditions:   	there is indication of neurotoxicity in routine toxicity studies carried out with the active substance; 	the active substance is a structurally related to known neurotoxic compound; 	the active substance has a neurotoxic mode of pesticidal action.   As a result, specific neurotoxicity studies are not routinely required for all pesticide active substances. Specific neurotoxicity testing becomes obligatory only if neurotoxicity has been observed during histopathological evaluation or in case of structural analogy with a known neurotoxic compound. Motor activity should be measured once in short-term repeated dose toxicity studies (OECD 407, 408 and 422) and several times in specific neurotoxicity studies (OECD 424, OECD 426 and cohort 2 of OECD 443). However, this is not a requirement in chronic toxicity studies unless neurotoxic effects have been reported in the shorter studies. The same test (measures horizontal and/or vertical movements in a test chamber) is implemented in both routine studies and neurotoxicity studies. Coordination and balance are evaluated by rotation or rotarod or pole tests, and gait abnormalities by forepaw stride length test. Those tests are not required by any repeated dose toxicity OECD guidelines and they can be optionally incorporated in the design of neurotoxicity studies OECD 424 and OECD 426.  Although motor deficits is the AO in this AOP, degeneration of DA neurons, is also considered an adverse effect in the regulatory framework, even in the absence of clear clinical symptoms or motor deficits. Morphological assessment of brain structures is a standard requirement in the regulatory toxicological studies supporting the risk assessment of chemical substances and it is a regulatory expectation that the anatomical structures belonging to the nigrostriatal pathway would be included and evaluated as part of the standard evaluation of the brain. Treatment related neuronal degeneration, when occurring as a consequence of the treatment, is generally dose-dependent in incidence and severity. However, if not accompanied by clinical signs or behavioral changes indicative of central nervous system pathology, minimal loss of DA neurons would likely remain undetected in the standard histological evaluation, due to the presence of non DA neurons or as a consequence of the subjectivity of non-quantifiable analysis, unless specific markers are used. As multiple forms of perturbation can affect the neurons, some changes are potentially still reversible (e.g. loss of TH or DA) and irreversibility should be confirmed as part of the assessment. It is then important to apply a sensitive and appropriate method (Switzer 2000) and evaluation of the phenotypic markers in the striatum and in the SNpc should be always performed as a minimum standard (Minnema et al.,&nbsp;2014) when investigating perturbation of the nigrostriatal pathway. It should additionally consider that rat is likely to be a poor model to capture this kind of hazard, as demonstrated by the poor sensitivity of rat to MPTP or related compounds and this should be taken into account for the design and interpretation of the studies.  Dissimilarities of chemical induced animal models to human disease are also important and should be carefully weighted when considering the duration and schedule of the study/treatment. Differently from the human disease, with the MPTP animal model, the damage occurs rapidly, is hardly progressive, is little age-dependent and formation of Lewy bodies is sometime not occurring (Efremova et al., 2015). Therefore, for different animals models, the standard 90 days toxicity study could not match with the chronic and progressive characteristics of the human disease and compensatory changes influencing DA metabolism and turnover and protein catabolism can occur during the treatment period with an impact on the time of onset of the lesion (Ossowska et al., 2005)."@en ;
+  foaf:page <https://identifiers.org/aop/593> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/539> a sbd:Model ;
   rdfs:label "Decreased Sodium/Potassium ATPase activity leads to Heart failure"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
@@ -5104,6 +5202,27 @@
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Contaminant induced generation of excess ROS and subsequent&nbsp;oxidative stress has been measured in fish ovaries after exposure to mutliple different classes of toxicants including pesticides, metals, plasticizers, and nanoplastics. Effects on fish reproductive fecundity has also been demonstrated for these stressors either concurrently or in independent studies. This AOP provides linkage between increased oxidative stress and adverse outcomes related to reduced fecundity in fish which is known to significantly effect fish population demographics."@en ;
   foaf:page <https://identifiers.org/aop/540> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/595> a sbd:Model ;
+  rdfs:label "Nanoplastic effect"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "A large number of drugs and chemicals have been shown to antagonise the AR using various AR reporter gene assays. The AR is specifically targeted in AR-sensitive cancers, for example the use of the anti-androgenic drug flutamide in treating prostate cancer (Alapi &amp; Fischer, 2006). Flutamide has also been used in several rodent in vivo studies showing anti-androgenic effects (feminization of male offspring) evident by e.g. short anogenital distance (AGD) in males (Foster &amp; Harris, 2005; Hass et al, 2007; Kita et al, 2016). QSAR models can predict AR antagonism for a wide range of chemicals, many of which have shown in vitro antagonistic potential (Vinggaard et al, 2008)."@en ;
+  foaf:page <https://identifiers.org/aop/595> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/595> a sbd:Model ;
+  rdfs:label "Nanoplastic effect"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "A large number of drugs and chemicals have been shown to antagonise the AR using various AR reporter gene assays. The AR is specifically targeted in AR-sensitive cancers, for example the use of the anti-androgenic drug flutamide in treating prostate cancer (Alapi &amp; Fischer, 2006). Flutamide has also been used in several rodent in vivo studies showing anti-androgenic effects (feminization of male offspring) evident by e.g. short anogenital distance (AGD) in males (Foster &amp; Harris, 2005; Hass et al, 2007; Kita et al, 2016). QSAR models can predict AR antagonism for a wide range of chemicals, many of which have shown in vitro antagonistic potential (Vinggaard et al, 2008)."@en ;
+  foaf:page <https://identifiers.org/aop/595> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/595> a sbd:Model ;
+  rdfs:label "Nanoplastic effect"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "A large number of drugs and chemicals have been shown to antagonise the AR using various AR reporter gene assays. The AR is specifically targeted in AR-sensitive cancers, for example the use of the anti-androgenic drug flutamide in treating prostate cancer (Alapi &amp; Fischer, 2006). Flutamide has also been used in several rodent in vivo studies showing anti-androgenic effects (feminization of male offspring) evident by e.g. short anogenital distance (AGD) in males (Foster &amp; Harris, 2005; Hass et al, 2007; Kita et al, 2016). QSAR models can predict AR antagonism for a wide range of chemicals, many of which have shown in vitro antagonistic potential (Vinggaard et al, 2008)."@en ;
+  foaf:page <https://identifiers.org/aop/595> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/575> a sbd:Model ;
@@ -5517,6 +5636,13 @@
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Cumulative fecundity is the most apical endpoint considered in the OECD 229 Fish Short Term Reproduction Assay. The OECD 229 assay serves as screening assay for endocrine disruption and associated reproductive impairment (OECD 2012). Fecundity is also an important apical endpoint in the Medaka Extended One Generation Reproduction Test (MEOGRT; OECD Test Guideline 240; OECD 2015).  A variety of fish life cycle tests also include cumulative fecundity as an endpoint (OECD 2008).  &nbsp;"@en ;
   foaf:page <https://identifiers.org/aop/537> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/547> a sbd:Model ;
+  rdfs:label "Androgen receptor agonism leading to long anogenital distance in female offspring"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Characterization of chemical properties: Androgen receptor binding chemicals can be grouped into two broad structural domains, steroidal and non-steroidal (Yin et al. 2003). Steroidal androgens consist primarily of testosterone and its derivatives (Yin et al. 2003). Many of the non-steroidal AR binding chemicals studied are derivatives of well known non-steroidal AR antagonists like bicalutamide, hydroxyflutamide, and nilutamide (Yin et al. 2003). Nonetheless, a number of QSARs and SARs that consider AR binding of both these pharmaceutical agents as well as environmental chemicals have been developed (Waller et al. 1996; Serafimova et al. 2002; Todorov et al. 2011; Hong et al. 2003; Bohl et al. 2004). However, it has been shown that very minor structural differences can dramatically impact function as either an agonist or antagonist (Yin et al. 2003; Bohl et al. 2004; Norris et al. 2009), making it difficult at present to predict agonist versus antagonist activity based on chemical structure alone.  In vivo considerations: A variety of steroidal androgens can be converted to estrogens in vitro through the action of cytochrome P450 19 (aromatase). Structures subject to aromatization may behave in vivo as estrogens despite exhibiting potent androgen receptor agonism in vitro."@en ;
+  foaf:page <https://identifiers.org/aop/547> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/563> a sbd:Model ;
