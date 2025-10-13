@@ -942,14 +942,14 @@
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/167> a sbd:Model ;
-  rdfs:label "Early-life estrogen receptor agonism leading to endometrial adenosquamous carcinoma via promotion of SIX1 progenitor cells"@en ;
+  rdfs:label "Early-life estrogen receptor agonism leading to endometrial adenosquamous carcinoma via promotion of sine oculis homeobox 1 progenitor cells"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "This AOP was as part of an Environmental Protection Agency effort to develop AOPs that establish scientifically supported causal linkages between alternative endpoints measured using new approach methodologies (NAMs) and guideline apical endpoints measured in Tier 1 and Tier 2 test guidelines (U.S. EPA, 2024) employed by the Endocrine Disruptor Screening Program (EDSP).&nbsp; A series of key events that represent significant, measurable, milestones connecting molecular initiation to apical endpoints indicative of adversity were identified based on scientific review articles and empirical studies.&nbsp; Additionally, scientific evidence supporting the causal relationships between each pair of key events was assembled and evaluated.&nbsp; The present effort focused primarily on empirical studies with laboratory rodents and other mammals."@en ;
   foaf:page <https://identifiers.org/aop/167> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/167> a sbd:Model ;
-  rdfs:label "Early-life estrogen receptor agonism leading to endometrial adenosquamous carcinoma via promotion of SIX1 progenitor cells"@en ;
+  rdfs:label "Early-life estrogen receptor agonism leading to endometrial adenosquamous carcinoma via promotion of sine oculis homeobox 1 progenitor cells"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "This event is related to Test No. 440: Uterotrophic Bioassay in Rodents and, as such, is part of an international regulatory framework being used by the European Chemicals Agency (ECHA), the U.S. Environmental Protection Agency (EPA), and various other OECD member countries as part of chemical safety evaluation.  The data could be used to identify potential endocrine disrupting chemicals and to support regulatory decisions, pesticide registration, industrial chemical approvals, and consumer product safety decisions.&nbsp; It could also be used to identify chemicals for further testing in the Endocrine Screening Disrupter Program (EDSP) Tier 2 tests."@en ;
   foaf:page <https://identifiers.org/aop/167> ;
@@ -2166,6 +2166,13 @@
   foaf:page <https://identifiers.org/aop/3> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/3> a sbd:Model ;
+  rdfs:label "Inhibition of the mitochondrial complex I of nigro-striatal neurons leads to parkinsonian motor deficits"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Revision of AOP3 (Project: NP/EFSA/PREV/2024/02):  Context &ndash; Revision of AOP3: Inhibition of cI leading to parkinsonian motor deficits&nbsp;  In 2017, the European Food Safety Authority (EFSA) started a project aimed at establishing a mechanistic AOP to elucidate the causal relationship between mitochondrial complex I (cI) inhibition and neurotoxic adverse outcomes manifesting in loss of dopamine neurons (EFSA 2017). This resulted in the development of AOP:3 (inhibition of cI leading to parkinsonian motor deficits), which subsequently was endorsed by the Organisation for Economic Co-operation and Development (OECD). The initial conceptualization of AOP3 was supported by empirical evidence derived from studies involving rotenone and MPTP/MPP+. Subsequent studies explored whether additional mitochondrial cI inhibitors could trigger similar neurotoxic effects (Table 1). In particular, AOP:3 became a test/pilot case to provide an in vitro point-of-departure (PoD) for an AOP-informed Integrated Approach to Testing and Assessment, concerning a potential risk of Parkinsonian motor deficits after exposure to Tebufenpyrad (Alimohammadi 2022). These open literature publications provide a valid source of data for implementing the biological plausibility, empirical support and quantitative characterisation of the AOP 3. Its implementation is being conducted under a negotiated procedure with EFSA (Reference: NP/EFSA/PREV/2024/02), which is intended to update AOP 3 by incorporating additional evidence into the AOP wiki.&nbsp;  Table 1. Application of AOP 3 in studies with regulatory relevance    	 		 			 			Study &nbsp; 			 			 			Regulatory relevance &nbsp; 			 			 			ETC tested &nbsp; 			 			 			Reference &nbsp; 			 		 		 			 			Testing of the in vitro battery aligned with AOP3 &nbsp; 			 			 			Testing the applicability of several assays to form the basis of a consensus mitochondrial toxicity testing platform &nbsp; 			 			 			Inhibition of cI, cII or cIII &nbsp; 			 			 			Delp et al. 2019; van der Stel et al. 2020 &nbsp; 			 		 		 			 			Case study on the use of an IATA for identification and characterization of Parkinsonian hazard&nbsp;&nbsp; 			 			 			Read across safety assessment of structurally closely related mitochondrial cI inhibitors&nbsp; 			 			 			Inhibition of cI&nbsp; 			 			 			ENV/JM/MONO(2020)22,&nbsp;  			van der Stel, W. (2021)&nbsp; 			 		 		 			 			Testing the predictivity of the downstream events &nbsp; 			 			 			Testing the inhibitory potency prediction with the aim to understand how far early KE data can and will predict an AO &nbsp; 			 			 			Inhibition of cI, cII or cIII &nbsp; 			 			 			Delp et al., 2021 &nbsp; 			 		 		 			 			Calibrate a qAOP to predict downstream KEs&nbsp; 			 			 			cI inhibitors&nbsp; 			 			 			Tebby et al., 2022&nbsp; 			 		 		 			 			EFSA Pilot Project on New Approach Methodologies&nbsp; 			 			 			Margins of Internal Exposure Application to Estimated Brain Exposure Compared to In Vitro PoD&nbsp; 			 			 			cI inhibitor&nbsp; 			 			 			Alimohammadi et al. 2023&nbsp; 			 		 		 			 			Hazard assessment &nbsp; 			 			 			Identification of the signalling network triggered by mitochondrial perturbation induced by the inhibition of cI, cII or cIII in HepG2 cells &nbsp; 			 			 			Inhibition of cI, cII or cIII &nbsp; 			 			 			Van der Stel et al., 2022  			 		 	   PoD: Poin t of Departure; IATA: Integrated Approaches to Testing and Assessment; cI: complex, I; cII: complex II; cIII: complex III  Not endorsed"@en ;
+  foaf:page <https://identifiers.org/aop/3> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/30> a sbd:Model ;
   rdfs:label "Estrogen receptor antagonism leading to reproductive dysfunction"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
@@ -2544,6 +2551,13 @@
   foaf:page <https://identifiers.org/aop/324> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/324> a sbd:Model ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via uncoupling of oxidative phosphorylation and cell death"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Reactive oxygen species (ROS) play a dual role in biology, functioning as essential signaling molecules under physiological conditions but becoming harmful when produced in excess. Imbalance between ROS generation and antioxidant defenses, commonly referred to as oxidative stress, has been linked to a wide spectrum of toxicological outcomes in both human health and environmental species. Growth impairment is of particular regulatory concern because it represents a sensitive and integrative endpoint that reflects energy status, cellular function, and organismal fitness.&nbsp;AOP networks (AOPNs) are especially relevant for oxidative stress, as ROS-mediated damage affects multiple cellular targets in parallel, leading to complex and interacting pathways of toxicity. Understanding these connections is critical for developing predictive toxicology tools that can account for chemical diversity and species-specific responses. The development of this AOPN is motivated by the need to capture the mechanistic complexity of oxidative stress and its consequences for growth, and to provide a transparent, structured framework that can be applied in regulatory decision-making. This AOPN is intended to support chemical risk assessment, ecological impact evaluation, and the design of alternative test methods that reduce reliance on animal testing."@en ;
+  foaf:page <https://identifiers.org/aop/324> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/325> a sbd:Model ;
   rdfs:label "Excessive reactive oxygen species leading to growth inhibition via uncoupling of oxidative phosphorylation and reduced cell growth"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
@@ -2713,23 +2727,58 @@
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/342> a sbd:Model ;
-  rdfs:label "S-adenosylmethionine depletion leading to population decline (1)"@en ;
+  rdfs:label "Ecdysone receptor hyperactivation leading to mortality via mis-timed activation of nuclear receptor cascade"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
-  dc:description "Stressors known to competitively inhibit CHS1 are polyoxin B, polyoxin D and Nikkomycin Z (Cohen and Casida 1982; Cohen and Casida 1990; Zhang and Yan Zhu 2013). There may also be stressors that inhibit CHS-1 in a non-competitive manner which may become apparent in further characterization efforts of this MIE. There is also a study that reports inhibition of CHS-1 by the phthalimide fungicide captan (Cohen and Casida 1982). However, it remains elusive if the observed inhibition is due to specific interaction with the enzyme or due to unspecific protein binding which is the predominant mode of action of phthalimides (Lukens and Sisler 1958)."@en ;
+  dc:description "The Adverse Outcome is highly significant from a regulatory point of view. It is employed as regulatory endpoint in most studies assessing the toxicity of stressors."@en ;
   foaf:page <https://identifiers.org/aop/342> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/342> a sbd:Model ;
-  rdfs:label "S-adenosylmethionine depletion leading to population decline (1)"@en ;
+  rdfs:label "Ecdysone receptor hyperactivation leading to mortality via mis-timed activation of nuclear receptor cascade"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "The development of this AOP was motivated by the regulatory and ecological importance of chemicals that target the ecdysone receptor (EcR) in insects. EcR is the molecular target of several classes of insect growth regulators (IGRs), which are deliberately designed to disrupt molting and cause lethality in pest species. However, these same mechanisms raise concern for potential adverse effects on non-target insects, including pollinators and beneficial arthropods. Because ecdysis is a highly conserved and hormonally regulated process essential for insect survival, disruptions of EcR signaling provide a biologically plausible and ecologically relevant pathway to mortality.  This AOP was therefore prioritized to support risk assessment and decision-making for EcR-active substances. It provides a mechanistic framework that integrates a large body of invertebrate endocrinology and neuroethology, allowing regulators to trace the cascade from molecular receptor activation to survival outcomes. The background understanding of ecdysis neuroendocrinology&mdash;developed over decades of model insect research&mdash;offers strong biological plausibility and cross-species relevance, making it a valuable case study for mechanistic regulatory science."@en ;
+  foaf:page <https://identifiers.org/aop/342> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/342> a sbd:Model ;
+  rdfs:label "Ecdysone receptor hyperactivation leading to mortality via mis-timed activation of nuclear receptor cascade"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "The Adverse Outcome is highly significant from a regulatory point of view. It is employed as regulatory endpoint in most studies assessing the toxicity of stressors."@en ;
   foaf:page <https://identifiers.org/aop/342> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/342> a sbd:Model ;
+  rdfs:label "Ecdysone receptor hyperactivation leading to mortality via mis-timed activation of nuclear receptor cascade"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "The development of this AOP was motivated by the regulatory and ecological importance of chemicals that target the ecdysone receptor (EcR) in insects. EcR is the molecular target of several classes of insect growth regulators (IGRs), which are deliberately designed to disrupt molting and cause lethality in pest species. However, these same mechanisms raise concern for potential adverse effects on non-target insects, including pollinators and beneficial arthropods. Because ecdysis is a highly conserved and hormonally regulated process essential for insect survival, disruptions of EcR signaling provide a biologically plausible and ecologically relevant pathway to mortality.  This AOP was therefore prioritized to support risk assessment and decision-making for EcR-active substances. It provides a mechanistic framework that integrates a large body of invertebrate endocrinology and neuroethology, allowing regulators to trace the cascade from molecular receptor activation to survival outcomes. The background understanding of ecdysis neuroendocrinology&mdash;developed over decades of model insect research&mdash;offers strong biological plausibility and cross-species relevance, making it a valuable case study for mechanistic regulatory science."@en ;
+  foaf:page <https://identifiers.org/aop/342> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/343> a sbd:Model ;
-  rdfs:label "S-adenosylmethionine depletion leading to population decline (2)"@en ;
+  rdfs:label "Ecdysone receptor antagonism leading to mortality via mis-timed ecdysone receptor-responsive nuclear receptor cascade"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "The Adverse Outcome is highly significant from a regulatory point of view. It is employed as regulatory endpoint in most studies assessing the toxicity of stressors."@en ;
+  foaf:page <https://identifiers.org/aop/343> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/343> a sbd:Model ;
+  rdfs:label "Ecdysone receptor antagonism leading to mortality via mis-timed ecdysone receptor-responsive nuclear receptor cascade"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "While EcR agonists are widely used as insect growth regulators, EcR antagonists are less common but represent a plausible mode of endocrine disruption. Chemicals acting as antagonists may arise as experimental compounds, metabolites, or environmental contaminants. Understanding the mechanistic links between receptor-level antagonism and organismal outcomes enables prediction of adverse effects in non-target arthropods."@en ;
+  foaf:page <https://identifiers.org/aop/343> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/343> a sbd:Model ;
+  rdfs:label "Ecdysone receptor antagonism leading to mortality via mis-timed ecdysone receptor-responsive nuclear receptor cascade"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "The Adverse Outcome is highly significant from a regulatory point of view. It is employed as regulatory endpoint in most studies assessing the toxicity of stressors."@en ;
+  foaf:page <https://identifiers.org/aop/343> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/343> a sbd:Model ;
+  rdfs:label "Ecdysone receptor antagonism leading to mortality via mis-timed ecdysone receptor-responsive nuclear receptor cascade"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "While EcR agonists are widely used as insect growth regulators, EcR antagonists are less common but represent a plausible mode of endocrine disruption. Chemicals acting as antagonists may arise as experimental compounds, metabolites, or environmental contaminants. Understanding the mechanistic links between receptor-level antagonism and organismal outcomes enables prediction of adverse effects in non-target arthropods."@en ;
   foaf:page <https://identifiers.org/aop/343> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
@@ -2744,6 +2793,13 @@
   rdfs:label "Androgen receptor (AR) antagonism leading to nipple retention (NR) in male (mammalian) offspring"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "NR is recognized by the OECD as a relevant measure for anti-androgenic effects and is mandatory in the test guidelines Extended One Generation Reproductive Toxicity Study, TG 443 (OECD, 2018) and the two screening studies for reproductive toxicity, TGs 421/422 (OECD, 2016a, 2016b). The endpoint is also described in the guidance documents 43 (OECD, 2008) and 151 (OECD, 2013). Furthermore, NR data can be used in chemical risk assessment for setting the No Observed Adverse Effect Level (NOAEL) as stated in the OECD guidance document 151 (OECD, 2013): &ldquo;A statistically significant change in nipple retention should be evaluated similarly to an effect on AGD as both endpoints indicate an adverse effect of exposure and should be considered in setting a NOAEL&rdquo;."@en ;
+  foaf:page <https://identifiers.org/aop/344> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/344> a sbd:Model ;
+  rdfs:label "Androgen receptor (AR) antagonism leading to nipple retention (NR) in male (mammalian) offspring"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP is a part of an AOP network for reduced androgen receptor activation leading to retention of nipples/areolas in male offspring. The other AOPs in this network are AOP-575 (&lsquo;Decreased intratesticular testosterone leading to increased nipple retention (NR) in male (mouse and rat) offspring&rsquo;) and AOP-576 (&lsquo;5&alpha;-reductase inhibition leading to increased nipple retention (NR) in male (mouse and rat) offspring&rsquo;). The purpose of the AOP network is to organize the well-established evidence for anti-androgenic mechanisms-of-action leading to increased NR. It can be used in identification and assessment of endocrine disruptors and to inform predictive toxicology, identification of knowledge gaps for investigation and method development.   This work received funding from the European Food and Safety Authority (EFSA) under Grant agreement no. GP/EFSA/PREV/2022/01."@en ;
   foaf:page <https://identifiers.org/aop/344> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
@@ -3406,9 +3462,30 @@
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/4> a sbd:Model ;
-  rdfs:label "Ecdysone receptor agonism leading to incomplete ecdysis associated mortality"@en ;
+  rdfs:label "Ecdysone receptor agonism leading to mortality via suppression of Ftz-f1"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "The Adverse Outcome is highly significant from a regulatory point of view. It is employed as regulatory endpoint in most studies assessing the toxicity of stressors."@en ;
+  foaf:page <https://identifiers.org/aop/4> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/4> a sbd:Model ;
+  rdfs:label "Ecdysone receptor agonism leading to mortality via suppression of Ftz-f1"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "The development of this AOP is motivated by regulatory needs to understand and predict the impacts of insect growth regulators and other endocrine-active chemicals that target EcR. Such compounds are widely used in pest control but pose risks to non-target arthropods, including pollinators and aquatic invertebrates. The AOP formalizes knowledge of conserved molting endocrine pathways to support hazard identification and potential regulatory screening frameworks."@en ;
+  foaf:page <https://identifiers.org/aop/4> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/4> a sbd:Model ;
+  rdfs:label "Ecdysone receptor agonism leading to mortality via suppression of Ftz-f1"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "The Adverse Outcome is highly significant from a regulatory point of view. It is employed as regulatory endpoint in most studies assessing the toxicity of stressors."@en ;
+  foaf:page <https://identifiers.org/aop/4> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/4> a sbd:Model ;
+  rdfs:label "Ecdysone receptor agonism leading to mortality via suppression of Ftz-f1"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "The development of this AOP is motivated by regulatory needs to understand and predict the impacts of insect growth regulators and other endocrine-active chemicals that target EcR. Such compounds are widely used in pest control but pose risks to non-target arthropods, including pollinators and aquatic invertebrates. The AOP formalizes knowledge of conserved molting endocrine pathways to support hazard identification and potential regulatory screening frameworks."@en ;
   foaf:page <https://identifiers.org/aop/4> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
@@ -4234,7 +4311,7 @@
 <https://identifiers.org/aop/474> a sbd:Model ;
   rdfs:label "Succinate dehydrogenase inactivation leads to cancer by promoting EMT"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
-  dc:description "Succinate dehydrogenase (SDH) is a key enzyme of mitochondria, organelles that play a crucial role in the production of energy, the metabolic and calcium homeostasis, the control of apoptosis, and the production of reactive oxygen species. SDH is involved in two interconnected metabolic processes for energy production: 1) cellular respiration, where it allows the transfer of electrons to ubiquinone as complex II of the mitochondrial respiratory chain, and 2) the Krebs cycle, where it catalyzes the oxidation of succinate to fumarate.   Numerous studies show that a complete inactivation of SDH caused by a first constitutional mutation associated with a second somatic mutation, leads to cancerous pathologies in young adults, including particularly aggressive forms of cancer such as paragangliomas (neuroendocrine tumors of the head and neck, thorax, abdomen and pelvis), pheochromocytomas (tumors of the adrenal medulla), renal cancers and gastrointestinal stromal tumors. The cellular and molecular mechanisms related to the genetic inactivation of SDH have been well described in neuroendocrine tumors, where it induces an oxidative stress, a pseudohypoxia phenotype, a metabolic, epigenetic and transcriptional remodeling, and alterations in tumor cell migration and invasion capacities, in connection with the accumulation of succinate, the substrate of SDH.  The succinate dehydrogenase inhibitors (SDHi) are fungicides used to control the proliferation of pathogenic fungi in cereal, fruit and vegetable crops, with a mode of action based on blocking the activity of SDH. The analysis of literature data shows that the impact of SDHi on health remains largely unexplored to date, despite a growing number of studies reporting toxic effects in non-target organisms. This is supported by our recent work highlighting 1) the high degree of conservation of the SDH catalytic site (i.e. the SDHi binding site) during the evolution and 2) the ability of SDHi to inhibit SDH in the mitochondria of non-target species, including humans (PMID: 31697708). These observations show that SDHi are not specific to fungal SDH and that their use may present a risk to human health, particularly in the context of chronic exposure through the diet. Moreover, the analysis of regulatory assessment reports shows that most SDHi induce tumors in animals without evidence of genotoxicity. Thus, for these substances, the mechanisms of carcinogenicity are, to date, not clearly established.&nbsp;   Our hypothesis is that, if SDHi fungicides are able to alter SDH activity in humans, the consequences of SDHi exposure on cellular and mitochondrial functions may resemble those observed in SDH-mutated tumors and SDH-deficient cells. We assume that the development of an AOP deciphering the different steps leading to cancer following a genetically-SDH inactivation could help to propose the exploration of relevant key events and adverse effects upon chronic exposure to SDHi fungicides.  &nbsp;"@en ;
+  dc:description "Succinate dehydrogenase (SDH) is a key enzyme of mitochondria, organelles that play a crucial role in the production of energy, the metabolic and calcium homeostasis, the control of apoptosis, and the production of reactive oxygen species. SDH is involved in two interconnected metabolic processes for energy production: 1) cellular respiration, where it allows the transfer of electrons to ubiquinone as complex II of the mitochondrial respiratory chain, and 2) the Krebs cycle, where it catalyzes the oxidation of succinate to fumarate (PMID: 33112834)  Numerous studies show that a complete inactivation of SDH caused by a first constitutional mutation associated with a second somatic mutation, leads to cancerous pathologies in young adults, including particularly aggressive forms of cancer such as paragangliomas (neuroendocrine tumors of the head and neck, thorax, abdomen and pelvis), pheochromocytomas (tumors of the adrenal medulla), renal cancers and gastrointestinal stromal tumors. The cellular and molecular mechanisms related to the genetic inactivation of SDH have been well described in neuroendocrine tumors, where it induces an oxidative stress, a pseudohypoxia phenotype, a metabolic, epigenetic and transcriptional remodeling, and alterations in tumor cell migration and invasion capacities, in connection with the accumulation of succinate, the substrate of SDH (PMID: 40285898).  The succinate dehydrogenase inhibitors (SDHi) are fungicides used to control the proliferation of pathogenic fungi in cereal, fruit and vegetable crops, with a mode of action based on blocking the activity of SDH. The analysis of literature data shows that the impact of SDHi on health remains largely unexplored to date, despite a growing number of studies reporting toxic effects in non-target organisms (PMID: 37778286). This is supported by our recent work highlighting 1) the high degree of conservation of the SDH catalytic site (i.e. the SDHi binding site) during the evolution and 2) the ability of SDHi to inhibit SDH in the mitochondria of non-target species, including humans (PMID: 31697708). These observations show that SDHi are not specific to fungal SDH and that their use may present a risk to human health, particularly in the context of chronic exposure through the diet. Moreover, the analysis of regulatory assessment reports shows that most SDHi induce tumors in animals without evidence of genotoxicity. Thus, for these substances, the mechanisms of carcinogenicity are, to date, not clearly established.&nbsp;   Our hypothesis is that, if SDHi fungicides are able to alter SDH activity in humans, the consequences of SDHi exposure on cellular and mitochondrial functions may resemble those observed in SDH-mutated tumors and SDH-deficient cells. We assume that the development of an AOP deciphering the different steps leading to cancer following a genetically-SDH inactivation could help to propose the exploration of relevant key events and adverse effects upon chronic exposure to SDHi fungicides."@en ;
   foaf:page <https://identifiers.org/aop/474> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
@@ -4326,6 +4403,13 @@
   rdfs:label "Androgen receptor (AR) antagonism leading to hypospadias in male (mammalian) offspring"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "In the OECD guidelines for developmental and reproductive toxicology, several test endpoints include examination of structural abnormalities with special attention to the organs of the reproductive system. These are: Test No. 414 &lsquo;Prenatal Developmental Toxicity Study&rsquo; (OECD, 2018a); Test No. 416 &lsquo;Two-Generation Reproduction Toxicity&rsquo; (OECD, 2001) and Tests No. 421/422 &lsquo;Reproduction/Developmental Toxicity Screening Test&rsquo; (OECD, 2016a, 2016b). In Test No. 443 &lsquo;Extended One-Generation Reproductive Toxicity Study&rsquo; (OECD, 2018b), hypospadias is specifically mentioned as a genital abnormality to note."@en ;
+  foaf:page <https://identifiers.org/aop/477> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/477> a sbd:Model ;
+  rdfs:label "Androgen receptor (AR) antagonism leading to hypospadias in male (mammalian) offspring"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP is a part of an AOP network for reduced androgen receptor activation causing hypospadias in male offspring. The other AOPs in this network are AOP-570 (&lsquo;Decreased testosterone synthesis leading to hypospadias in male (mammalian) offspring&rsquo;) and AOP-571 (&lsquo;5&alpha;-reductase inhibition leading to hypospadias in male (mammalian) offspring&rsquo;). The purpose of the AOP network is to organize the well-established evidence for anti-androgenic mechanisms-of-action leading to hypospadias, thus informing predictive toxicology and identifying knowledge gaps for investigation and method development.   This work received funding from the European Food and Safety Authority (EFSA) under Grant agreement no. GP/EFSA/PREV/2022/01 and from the Danish Environmental Protection Agency under the Danish Center for Endocrine Disrupters (CeHoS)."@en ;
   foaf:page <https://identifiers.org/aop/477> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
@@ -5085,6 +5169,13 @@
   foaf:page <https://identifiers.org/aop/587> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/587> a sbd:Model ;
+  rdfs:label "Inhibition of the mitochondrial complex III of nigro-striatal neurons leads to parkinsonian motor deficits "@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Evidence from literature consistently indicates that a relationship exists between pesticide exposure and the onset of parkinsonian motor deficit (Ntzani et al., 2013). The European Food Safety Authority (EFSA) started a project to provide a theoretical basis explaining the link between cI inhibition and neurotoxic adverse outcomes (manifesting in loss of dopamine neurons) (EFSA 2017). This resulted in the development of AOP 3 (inhibition of cI leading to parkinsonian motor deficits) and its endorsement by the OECD. The AOP 3 became a test/pilot case for exploring the use of AOP informed IATA in risk assessment (Bennekou et al.-OECD 2020). The AOP was initially exemplified by studies on rotenone and MPTP/MPP+. Subsequent work explored whether also the inhibition of other complexes of the respiratory chain might show similar effects. Systematic approaches, based on the 2017 version of AOP3 and case studies of regulatory relevance, indicate the contribution of the inhibition of mitochondrial complexes other than complex I, i.e. cIII (Table 1). These observations justify the integration of published data on complex III inhibition. The implementation of the AOP 3 is based on a negotiated procedure with EFSA (Reference: NP/EFSA/PREV/2024/02), which is intended to update AOP 3 by adding more evidence to the AOP wiki. The focus of the project is the transformation of AOP 3 into an AOP network for adult neurotoxicity, which involves expanding the number of MIEs.&nbsp;  Table 1. Application of AOP 3 in studies with regulatory relevance&nbsp;   	 		 			 			Study&nbsp; 			 			 			Regulatory relevance&nbsp; 			 			 			ETC tested&nbsp; 			 			 			Reference&nbsp; 			 		 		 			 			Testing of the in vitro battery aligned with AOP3&nbsp; 			 			 			Testing the applicability of several assays to form the basis of a consensus mitochondrial toxicity testing platform&nbsp; 			 			 			Inhibition of cI, cII or cIII&nbsp; 			 			 			Delp et al. 2019; van der Stel et al. 2020&nbsp; 			 		 		 			 			Case study on the use of an IATA for mitochondrial cIII mediated neurotoxicity&nbsp; 			 			 			Read across safety assessment of structurally closely related mitochondrial cIII inhibitors&nbsp; 			 			 			Inhibition of cIII&nbsp; 			 			 			ENV/JM/MONO(2020)23, van der Stel, W. (2021)&nbsp; 			 		 		 			 			Testing the predictivity of the downstream events&nbsp; 			 			 			Testing the inhibitory potency prediction with the aim to understand how far early KE data can and will predict an AO&nbsp; 			 			 			Inhibition of cI, cII or cIII&nbsp; 			 			 			Delp et al., 2021&nbsp; 			 		 		 			 			Hazard assessment&nbsp; 			 			 			Identification of the signalling network triggered by mitochondrial perturbation induced by the inhibition of cI, cII or cIII in HepG2 cells&nbsp; 			 			 			Inhibition of cI, cII or cIII&nbsp; 			 			 			Van der Stel et al., 2022&nbsp; 			 		 	   IATA: Integrated Approaches to Testing and Assessment; cI: complex, I; cII: complex&nbsp; II; cIII: complex III&nbsp;"@en ;
+  foaf:page <https://identifiers.org/aop/587> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/588> a sbd:Model ;
   rdfs:label "Inhibition of the mitochondrial complex II of nigro-striatal neurons leads to parkinsonian motor deficits"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
@@ -5183,6 +5274,55 @@
   foaf:page <https://identifiers.org/aop/593> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/593> a sbd:Model ;
+  rdfs:label "Redox cycling of a chemical by mitochondria leads to degeneration of nigrostriatal dopaminergic neurons "@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Evidence from literature consistently indicates that a relationship exists between pesticide exposure and the onset of parkinsonian motor deficit (Ntzani et al., 2013, EFSA 2017). In 2017, the European Food Safety Authority (EFSA) started a project to provide a theoretical basis explaining the link between redox cycler and degeneration of nigrostriatal dopaminergic neurons leading to parkinsonian motor deficits (EFSA 2017). This project resulted in an AOP converging on the OECD-endorsed AOP 3 which describes the sequence of events from mitochondrial complex I inhibition to parkinsonian motor deficits. In the effort to develop an AOP network addressing parkinsonian motor deficits involving multiple MIEs, this AOP has been refined and updated based on recent scientific evidence. &nbsp;"@en ;
+  foaf:page <https://identifiers.org/aop/593> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/605> a sbd:Model ;
+  rdfs:label "Thyroid Peroxidase Inhibition Leading to Reduced, Swimming Performance via Hypomyelination"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Maintenance of sustainable fish and wildlife populations (i.e., adequate to ensure long-term delivery of valued ecosystem services) is a widely accepted regulatory goal upon which risk assessments and risk management decisions are based."@en ;
+  foaf:page <https://identifiers.org/aop/605> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/605> a sbd:Model ;
+  rdfs:label "Thyroid Peroxidase Inhibition Leading to Reduced, Swimming Performance via Hypomyelination"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "There is a wealth of information on the inhibition of TPO by drugs such as MMI and PTU, as well as environmental xenobiotics. In the landmark paper on TH system&nbsp;disruption by environmental chemicals, Brucker-Davis (1998) identified environmental chemicals that depressed TH synthesis by inhibiting TPO. Hurley (1998) listed TPO as a major target for thyroid tumor inducing pesticides. More recent work has tested over 1000 chemicals using a high-throughput screening assay (Paul-Friedman et al., 2016)."@en ;
+  foaf:page <https://identifiers.org/aop/605> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/605> a sbd:Model ;
+  rdfs:label "Thyroid Peroxidase Inhibition Leading to Reduced, Swimming Performance via Hypomyelination"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Increased mortality is one of the most common regulatory assessment endpoints,&nbsp;along with reduced growth and reduced reproduction."@en ;
+  foaf:page <https://identifiers.org/aop/605> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/605> a sbd:Model ;
+  rdfs:label "Thyroid Peroxidase Inhibition Leading to Reduced, Swimming Performance via Hypomyelination"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Maintenance of sustainable fish and wildlife populations (i.e., adequate to ensure long-term delivery of valued ecosystem services) is a widely accepted regulatory goal upon which risk assessments and risk management decisions are based."@en ;
+  foaf:page <https://identifiers.org/aop/605> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/605> a sbd:Model ;
+  rdfs:label "Thyroid Peroxidase Inhibition Leading to Reduced, Swimming Performance via Hypomyelination"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "There is a wealth of information on the inhibition of TPO by drugs such as MMI and PTU, as well as environmental xenobiotics. In the landmark paper on TH system&nbsp;disruption by environmental chemicals, Brucker-Davis (1998) identified environmental chemicals that depressed TH synthesis by inhibiting TPO. Hurley (1998) listed TPO as a major target for thyroid tumor inducing pesticides. More recent work has tested over 1000 chemicals using a high-throughput screening assay (Paul-Friedman et al., 2016)."@en ;
+  foaf:page <https://identifiers.org/aop/605> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/605> a sbd:Model ;
+  rdfs:label "Thyroid Peroxidase Inhibition Leading to Reduced, Swimming Performance via Hypomyelination"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Increased mortality is one of the most common regulatory assessment endpoints,&nbsp;along with reduced growth and reduced reproduction."@en ;
+  foaf:page <https://identifiers.org/aop/605> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/539> a sbd:Model ;
   rdfs:label "Decreased Sodium/Potassium ATPase activity leads to Heart failure"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
@@ -5225,10 +5365,66 @@
   foaf:page <https://identifiers.org/aop/595> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/596> a sbd:Model ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via protein oxidation and cell injury/death"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
+  foaf:page <https://identifiers.org/aop/596> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/598> a sbd:Model ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via protein oxidation and reduced cell proliferation"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
+  foaf:page <https://identifiers.org/aop/598> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/599> a sbd:Model ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via fatty acid oxidation and cell injury/death"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
+  foaf:page <https://identifiers.org/aop/599> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/600> a sbd:Model ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via fatty acid oxidation and reduced cell growth"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
+  foaf:page <https://identifiers.org/aop/600> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/601> a sbd:Model ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via fatty acid oxidation and reduced cell proliferation"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
+  foaf:page <https://identifiers.org/aop/601> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/602> a sbd:Model ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via oxidative DNA damage"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
+  foaf:page <https://identifiers.org/aop/602> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/603> a sbd:Model ;
+  rdfs:label "Excessive reactive oxygen species leading to growth inhibition via protein oxidation and cell cycle disruption"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Growth is a regulatory relevant chronic toxicity endpoint for almost all organisms. Multiple OECD test guidelines have included growth either as a main endpoint of concern, or as an additional endpoint to be considered in the toxicity assessments. Relevant test guidelines include, but not only limited to:  &nbsp;  -Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test  -Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test  -Test No. 211: Daphnia magna Reproduction Test  -Test No. 212: Fish, Short-term Toxicity Test on Embryo and Sac-Fry Stages  -Test No. 215: Fish, Juvenile Growth Test  -Test No. 221: Lemna sp. Growth Inhibition Test  -Test No. 228: Determination of Developmental Toxicity to Dipteran Dung Flies (Scathophaga stercoraria L. (Scathophagidae), Musca autumnalis De Geer (Muscidae))  -Test No. 241: The Larval Amphibian Growth and Development Assay (LAGDA)  -Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents  -Test No. 408: Repeated Dose 90-Day Oral Toxicity Study in Rodents  -Test No. 416: Two-Generation Reproduction Toxicity  -Test No. 422: Combined Repeated Dose Toxicity Study with the Reproduction/Developmental Toxicity Screening Test  -Test No. 443: Extended One-Generation Reproductive Toxicity Study  -Test No. 453: Combined Chronic Toxicity/Carcinogenicity Studies"@en ;
+  foaf:page <https://identifiers.org/aop/603> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/575> a sbd:Model ;
   rdfs:label "Decreased testosterone synthesis leading to increased nipple retention (NR) in male (rodent) offspring"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "NR is recognized by the OECD as a relevant measure for anti-androgenic effects and is mandatory in the test guidelines Extended One Generation Reproductive Toxicity Study, TG 443 (OECD, 2018) and the two screening studies for reproductive toxicity, TGs 421/422 (OECD, 2016a, 2016b). The endpoint is also described in the guidance documents 43 (OECD, 2008) and 151 (OECD, 2013). Furthermore, NR data can be used in chemical risk assessment for setting the No Observed Adverse Effect Level (NOAEL) as stated in the OECD guidance document 151 (OECD, 2013): &ldquo;A statistically significant change in nipple retention should be evaluated similarly to an effect on AGD as both endpoints indicate an adverse effect of exposure and should be considered in setting a NOAEL&rdquo;."@en ;
+  foaf:page <https://identifiers.org/aop/575> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/575> a sbd:Model ;
+  rdfs:label "Decreased testosterone synthesis leading to increased nipple retention (NR) in male (rodent) offspring"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP is a part of an AOP network for reduced AR activation leading to increased NR in male offspring. The other AOPs in this network are AOP-344 (&lsquo;Androgen receptor antagonism leading to increased nipple retention (NR) in male (rodent) offspring&rsquo;) and AOP 576 (&lsquo;5&alpha;-reductase inhibition leading to increased nipple retention (NR) in male (rodent) offspring&rsquo;). The purpose of the AOP network is to organize the well-established evidence for anti-androgenic mechanisms-of-action leading to increased NR. It can be used in the identification and assessment of endocrine disruptors and to inform predictive toxicology, identification of knowledge gaps for investigation and method development.   This work received funding from the European Food and Safety Authority (EFSA) under Grant agreement no. GP/EFSA/PREV/2022/01."@en ;
   foaf:page <https://identifiers.org/aop/575> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
@@ -5366,14 +5562,14 @@
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/529> a sbd:Model ;
-  rdfs:label "Perfluorooctanesulfonic acid (PFOS) binding to peroxisome proliferator-activated receptors (PPARs) causes dysregulation of lipid metabolism and subsequent liver steatosis"@en ;
+  rdfs:label "Xenobiotic binding to peroxisome proliferator-activated receptors (PPARs) causes dysregulation of lipid metabolism leading to liver steatosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Steatosis is a regulatory endpoint and has been used as an endpoint in many US EPA assessments, including IRIS assessments."@en ;
   foaf:page <https://identifiers.org/aop/529> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/529> a sbd:Model ;
-  rdfs:label "Perfluorooctanesulfonic acid (PFOS) binding to peroxisome proliferator-activated receptors (PPARs) causes dysregulation of lipid metabolism and subsequent liver steatosis"@en ;
+  rdfs:label "Xenobiotic binding to peroxisome proliferator-activated receptors (PPARs) causes dysregulation of lipid metabolism leading to liver steatosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Poly- and perfluoroalkyl substances (PFAS) are a large group of fluorinated compounds that have a wide variety of commercial and industrial applications ranging from use in firefighting foams to non-stick coatings to fishing lines (DeWitt, et al. 2019; Annunziato et al. 2020; Gl&uuml;ge et al. 2020).&nbsp; PFAS exposure can have negative effects on development, growth, reproduction, hepatic function, immune function, neurological function, and lipid metabolism in humans and other vertebrates (Sunderland et al. 2019; Lee et al. 2020; Agency for Toxic Substances and Disease Registry (ATSDR), 2021; Ankley et al. 2021; Bell et al. 2021; Fragki et al. 2021; Ho et al. 2021; Boyd et al. 2022).&nbsp; Research in terrestrial and aquatic vertebrates has shown the liver to be a target organ of PFAS accumulation and resulting hepatoxicity (Lee et al. 2020; Costello et al. 2022; Ducatman and Fenton 2022; Huang et al. 2022a; Wang et al. 2022b).&nbsp; Here we propose an adverse outcome pathway (AOP) linking the binding of a specific PFAS, perfluorooctanesulfonic acid (PFOS), to peroxisome proliferator-activated receptors (PPARs) as the molecular initiating event (MIE) causing perturbation of PPAR-linked lipid metabolism which ultimately results in the adverse outcome (AO) of liver steatosis in PFOS-exposed vertebrates.  PPARs are a family of nuclear receptors in vertebrates that bind lipids as signaling molecules resulting in a cascade of transcriptional regulatory events that maintain energy homeostasis (Grygiel-Gorniak 2014).&nbsp; Specifically, PPAR&alpha; is integral in regulating fatty acid catabolism and energy production through beta-oxidation; PPAR&gamma; regulates fatty acid synthesis and storage; and PPAR&beta;/&delta; plays a key role in glucose homeostasis and beta-oxidation (Varga et al. 2011; Grygiel-Gorniak 2014; Lamas-Bervejillo and Ferreira 2019; Gust et al. 2019).&nbsp; Despite their more discrete roles, the crosstalk between all PPAR isoforms is essential to maintaining energy homeostasis; and therefore, any over-activation or repression of the PPAR signaling network can have deleterious outcomes for the organism."@en ;
   foaf:page <https://identifiers.org/aop/529> ;
@@ -5393,6 +5589,13 @@
   foaf:page <https://identifiers.org/aop/570> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/570> a sbd:Model ;
+  rdfs:label "Decreased testosterone synthesis leading to hypospadias in male (mammalian) offspring"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP is a part of an AOP network for reduced androgen receptor activation causing hypospadias in male offspring. The other AOPs in this network are AOP-477 (&lsquo;Androgen receptor antagonism leading to hypospadias in male (mammalian) offspring&rsquo;), and AOP-571 (&lsquo;5&alpha;-reductase inhibition leading to hypospadias in male (mammalian) offspring&rsquo;). The purpose of the AOP network is to organize the well-established evidence for anti-androgenic mechanisms-of-action leading to hypospadias, thus informing predictive toxicology and identifying knowledge gaps for investigation and method development.   This work received funding from the European Food and Safety Authority (EFSA) under Grant agreement no. GP/EFSA/PREV/2022/01 and from the Danish Environmental Protection Agency under the Danish Center for Endocrine Disrupters (CeHoS)."@en ;
+  foaf:page <https://identifiers.org/aop/570> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/571> a sbd:Model ;
   rdfs:label "5α-reductase inhibition leading to hypospadias in male (mammalian) offspring"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
@@ -5400,10 +5603,24 @@
   foaf:page <https://identifiers.org/aop/571> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/571> a sbd:Model ;
+  rdfs:label "5α-reductase inhibition leading to hypospadias in male (mammalian) offspring"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP is a part of an AOP network for reduced androgen receptor activation causing hypospadias in male offspring. The other AOPs in this network are AOP-477 (&lsquo;Androgen receptor antagonism leading to hypospadias in male (mammalian) offspring&rsquo;), and AOP-570 (&lsquo;Decreased testosterone synthesis leading to hypospadias in male (mammalian) offspring&rsquo;). The purpose of the AOP network is to organize the well-established evidence for anti-androgenic mechanisms-of-action leading to hypospadias, thus informing predictive toxicology and identifying knowledge gaps for investigation and method development.   This work received funding from the European Food and Safety Authority (EFSA) under Grant agreement no. GP/EFSA/PREV/2022/01 and from the Danish Environmental Protection Agency under the Danish Center for Endocrine Disrupters (CeHoS)."@en ;
+  foaf:page <https://identifiers.org/aop/571> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/576> a sbd:Model ;
   rdfs:label "5α-reductase inhibition leading to increased nipple retention (NR) in male (rodent) offspring"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "NR is recognized by the OECD as a relevant measure for anti-androgenic effects and is mandatory in the test guidelines Extended One Generation Reproductive Toxicity Study, TG 443 (OECD, 2018) and the two screening studies for reproductive toxicity, TGs 421/422 (OECD, 2016a, 2016b). The endpoint is also described in the guidance documents 43 (OECD, 2008) and 151 (OECD, 2013). Furthermore, NR data can be used in chemical risk assessment for setting the No Observed Adverse Effect Level (NOAEL) as stated in the OECD guidance document 151 (OECD, 2013): &ldquo;A statistically significant change in nipple retention should be evaluated similarly to an effect on AGD as both endpoints indicate an adverse effect of exposure and should be considered in setting a NOAEL&rdquo;."@en ;
+  foaf:page <https://identifiers.org/aop/576> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/576> a sbd:Model ;
+  rdfs:label "5α-reductase inhibition leading to increased nipple retention (NR) in male (rodent) offspring"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP is a part of an AOP network for reduced AR activation leading to increased NR in male offspring. The other AOPs in this network are AOP 344 (&lsquo;Androgen receptor antagonism leading to increased nipple retention in male (rodent) offspring&rsquo;), and AOP 575 (&lsquo;Decreased testosterone synthesis leading to increased nipple retention in male (rodent) offspring&rsquo;). The purpose of the AOP network is to organize the well-established evidence for anti-androgenic mechanisms-of-action leading to increased NR. It can be used in identification and assessment of endocrine disruptors and to inform predictive toxicology, identification of knowledge gaps for investigation and method development.   This work received funding from the European Food and Safety Authority (EFSA) under Grant agreement no. GP/EFSA/PREV/2022/01."@en ;
   foaf:page <https://identifiers.org/aop/576> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
@@ -5678,6 +5895,69 @@
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "This Adverse Outcome Pathway (AOP) was developed as part of an Environmental Protection Agency effort to represent putative AOPs from peer-reviewed literature which were heretofore unrepresented in the AOP-Wiki. &nbsp;The originating work for this AOP was: McDonald, M.D. &nbsp;2017. &nbsp;An AOP analysis of selective serotonin reuptake inhibitors (SSRIs) for fish. Comparative Biochemistry and Physiology, Part C-Toxicology and Pharmacology 197: 19&ndash;31. &nbsp; This publication, and the work cited within, were used create and support this AOP and its respective KE and KER pages.&nbsp;  The focus of the originating work was to use an AOP framework to examine inhibition of 5-hydroxytryptamine transporters in fish by selective serotonin reuptake inhibitor (SSRI) toxicants, to review known roles of serotonin receptors to explore mechanisms of action, and to determine toxicity endpoints. &nbsp;McDonald (2017) used the Read-Across Hypothesis, which postulates that pharmaceuticals will cause comparable effects in different taxa if the pathways and targets are evolutionarily and functionally conserved (Rand-Weaver et al. 2013), to link effects of serotonin pathways in fish and mammals. &nbsp; &nbsp;"@en ;
   foaf:page <https://identifiers.org/aop/568> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/606> a sbd:Model ;
+  rdfs:label "Ecdysone receptor antagonism leading to mortality via inhibition of chitin synthase 1"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "The Adverse Outcome is highly significant from a regulatory point of view. It is employed as regulatory endpoint in most studies assessing the toxicity of stressors."@en ;
+  foaf:page <https://identifiers.org/aop/606> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/606> a sbd:Model ;
+  rdfs:label "Ecdysone receptor antagonism leading to mortality via inhibition of chitin synthase 1"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "EcR antagonists include experimental endocrine disruptors and potential environmental contaminants that interfere with steroid signaling in arthropods. Although most registered insecticides act as EcR agonists, antagonists represent a plausible mode of endocrine disruption with ecological significance. Understanding how inhibition of EcR leads to organismal failure provides a basis for chemical safety assessment."@en ;
+  foaf:page <https://identifiers.org/aop/606> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/606> a sbd:Model ;
+  rdfs:label "Ecdysone receptor antagonism leading to mortality via inhibition of chitin synthase 1"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "The Adverse Outcome is highly significant from a regulatory point of view. It is employed as regulatory endpoint in most studies assessing the toxicity of stressors."@en ;
+  foaf:page <https://identifiers.org/aop/606> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/606> a sbd:Model ;
+  rdfs:label "Ecdysone receptor antagonism leading to mortality via inhibition of chitin synthase 1"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "EcR antagonists include experimental endocrine disruptors and potential environmental contaminants that interfere with steroid signaling in arthropods. Although most registered insecticides act as EcR agonists, antagonists represent a plausible mode of endocrine disruption with ecological significance. Understanding how inhibition of EcR leads to organismal failure provides a basis for chemical safety assessment."@en ;
+  foaf:page <https://identifiers.org/aop/606> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/609> a sbd:Model ;
+  rdfs:label "Activation, estrogen receptor alpha leads to prolonged estrus cycle via decreased kisspeptin release"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP was part of an Environmental Protection Agency effort to develop AOPs that establish scientifically supported causal linkages between alternative endpoints measured using new approach methodologies (NAMs) and guideline apical endpoints measured in Tier 1 and Tier 2 test guidelines (U.S. EPA, 2024) employed by the Endocrine Disruptor Screening Program (EDSP). &nbsp;A series of key events that represent significant, measurable, milestones connecting molecular initiation to apical endpoints indicative of adversity were identified based on scientific review articles and empirical studies. Additionally, scientific evidence supporting the causal relationships between each pair of key events was assembled and evaluated. &nbsp; The present effort focused primarily on empirical studies with laboratory rodents and other mammals."@en ;
+  foaf:page <https://identifiers.org/aop/609> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/610> a sbd:Model ;
+  rdfs:label "Decreased thyroid hormone levels in the brain regulated via transport, metabolism and TR activation leading to decreased cognition and motor function"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Olker et al. (2019) identified 20 DIO2-specific inhibitors using a human recombinant DIO2 enzyme (e.g., tetramethrin, elzasonan). Another typical inhibitor of DIO2 (and DIO1 and 3) is iopanoic acid (IOP), which acts as a substrate of all three DIO isoforms (Renko et al., 2015). In fact, many compounds inhibit all three DIO isoforms. Olker et al. (2019) identified 93 compounds that inhibit DIOs 1, 2 and 3."@en ;
+  foaf:page <https://identifiers.org/aop/610> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/610> a sbd:Model ;
+  rdfs:label "Decreased thyroid hormone levels in the brain regulated via transport, metabolism and TR activation leading to decreased cognition and motor function"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "A prime example of impairments in learning and memory as the adverse outcome for regulatory action is developmental lead exposure and IQ function in children (Bellinger, 2012). Most methods are well established in the published literature and many have been engaged to evaluate the effects of developmental thyroid disruption. The US EPA and OECD Developmental Neurotoxicity (DNT) Guidelines (OCSPP 870.6300 or OECD TG 426) as well as OECD TG 443 (OECD, 2018) both require testing of learning and memory (USEPA, 1998; OECD, 2007) advising to use the following tests passive avoidance, delayed-matching-to-position for the adult rat and for the infant rat, olfactory conditioning, Morris water maze, Biel or Cincinnati maze, radial arm maze, T-maze, and acquisition and retention of schedule-controlled behavior. These DNT Guidelines have been deemed valid to identify developmental neurotoxicity and adverse neurodevelopmental outcomes (Makris et al., 2009).&nbsp;  Also, in the frame of the OECD GD 43 (2008) on reproductive toxicity, learning and memory testing may have potential to be applied in the context of developmental neurotoxicity studies. However, many of the learning and memory tasks used in guideline studies may not readily detect subtle impairments in cognitive function associated with modest degrees of developmental thyroid disruption (Gilbert et al., 2012).&nbsp;  &nbsp;"@en ;
+  foaf:page <https://identifiers.org/aop/610> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/610> a sbd:Model ;
+  rdfs:label "Decreased thyroid hormone levels in the brain regulated via transport, metabolism and TR activation leading to decreased cognition and motor function"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Olker et al. (2019) identified 20 DIO2-specific inhibitors using a human recombinant DIO2 enzyme (e.g., tetramethrin, elzasonan). Another typical inhibitor of DIO2 (and DIO1 and 3) is iopanoic acid (IOP), which acts as a substrate of all three DIO isoforms (Renko et al., 2015). In fact, many compounds inhibit all three DIO isoforms. Olker et al. (2019) identified 93 compounds that inhibit DIOs 1, 2 and 3."@en ;
+  foaf:page <https://identifiers.org/aop/610> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/610> a sbd:Model ;
+  rdfs:label "Decreased thyroid hormone levels in the brain regulated via transport, metabolism and TR activation leading to decreased cognition and motor function"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "A prime example of impairments in learning and memory as the adverse outcome for regulatory action is developmental lead exposure and IQ function in children (Bellinger, 2012). Most methods are well established in the published literature and many have been engaged to evaluate the effects of developmental thyroid disruption. The US EPA and OECD Developmental Neurotoxicity (DNT) Guidelines (OCSPP 870.6300 or OECD TG 426) as well as OECD TG 443 (OECD, 2018) both require testing of learning and memory (USEPA, 1998; OECD, 2007) advising to use the following tests passive avoidance, delayed-matching-to-position for the adult rat and for the infant rat, olfactory conditioning, Morris water maze, Biel or Cincinnati maze, radial arm maze, T-maze, and acquisition and retention of schedule-controlled behavior. These DNT Guidelines have been deemed valid to identify developmental neurotoxicity and adverse neurodevelopmental outcomes (Makris et al., 2009).&nbsp;  Also, in the frame of the OECD GD 43 (2008) on reproductive toxicity, learning and memory testing may have potential to be applied in the context of developmental neurotoxicity studies. However, many of the learning and memory tasks used in guideline studies may not readily detect subtle impairments in cognitive function associated with modest degrees of developmental thyroid disruption (Gilbert et al., 2012).&nbsp;  &nbsp;"@en ;
+  foaf:page <https://identifiers.org/aop/610> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/562> a sbd:Model ;
