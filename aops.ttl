@@ -4721,6 +4721,13 @@
   foaf:page <https://identifiers.org/aop/500> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/501> a sbd:Model ;
+  rdfs:label "Excessive iron accumulation leading to neurological disorders"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP frames how excessive iron in the CNS elevates the labile iron pool, amplifies oxidative stress, and degrades neuronal network function, culminating in neurological disorders. Neurons and oligodendrocytes are rich in PUFA and iron-dependent enzymes; microglia/astrocytes modulate iron flux (transferrin, ferritin, ferroportin, DMT1, hepcidin). Dysregulation at this node perturbs redox homeostasis, synaptic plasticity, and circuit integrity&mdash;key determinants of cognitive and motor function. Applications span regulatory neurotoxicity, disease modeling (iron-accumulation syndromes), and therapeutic design (iron chelation, antioxidant/anti-ferroptotic strategies)."@en ;
+  foaf:page <https://identifiers.org/aop/501> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/502> a sbd:Model ;
   rdfs:label "Decrease, cholesterol synthesis leads to orofacial clefting"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
@@ -5191,77 +5198,77 @@
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/591> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA damage increase in liver leading to Non-alcoholic fatty liver disease via liver steatosis and inhibition of regeneration"@en ;
+  rdfs:label "DBDPE-induced DNA damage increase in liver leading to Non-alcoholic fatty liver disease via liver steatosis and inhibition of regeneration"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Stressors include:  Ionizing radiation  Estrogen"@en ;
   foaf:page <https://identifiers.org/aop/591> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/591> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA damage increase in liver leading to Non-alcoholic fatty liver disease via liver steatosis and inhibition of regeneration"@en ;
+  rdfs:label "DBDPE-induced DNA damage increase in liver leading to Non-alcoholic fatty liver disease via liver steatosis and inhibition of regeneration"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "This AOP is developed for zebrafish embryos exposed up to 120 hpf at the larval stage and&nbsp;4 month old transgenic female zebrafish or wild-type female zebrafish. It provides novel insight into the toxic mechanisms of DBDPE as well as other emerging pollutants."@en ;
   foaf:page <https://identifiers.org/aop/591> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/592> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  rdfs:label "DBDPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Maintenance of sustainable fish and wildlife populations (i.e., adequate to ensure long-term delivery of valued ecosystem services) is a widely accepted regulatory goal upon which risk assessments and risk management decisions are based."@en ;
   foaf:page <https://identifiers.org/aop/592> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/592> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  rdfs:label "DBDPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Under REACH, information on reproductive toxicity is required for chemicals with an annual production/importation volume of 10 metric tonnes or more. Standard information requirements include a screening study on reproduction toxicity (OECD TG 421/422) at Annex VIII (10-100 t.p.a), a prenatal developmental toxicity study (OECD 414) on a first species at Annex IX (100-1000 t.p.a), and from March 2015 the OECD 443(Extended One-Generation Reproductive Toxicity Study) is reproductive toxicity requirement instead of the two generation reproductive toxicity study (OECD TG 416). If not conducted already at Annex IX, a prenatal developmental toxicity study on a second species at Annex X (&ge; 1000 t.p.a.).  Under the Biocidal Products Regulation (BPR), information is also required on reproductive toxicity for active substances as part of core data set and additional data set (EU 2012, ECHA 2013). As a core data set, prenatal developmental toxicity study (EU TM B.31) in rabbits as a first species and a two-generation reproduction toxicity study (EU TM B.31) are required. OECD TG 443 (Extended One-Generation Reproductive Toxicity Study) shall be considered as an alternative approach to the multi-generation study.) According to the Classification, Labelling and Packaging (CLP) regulation (EC, 200; Annex I: 3.7.1.1): a) &ldquo;reproductive toxicity&rdquo; includes adverse effects on sexual function and fertility in adult males and females, as well as developmental toxicity in the offspring; b) &ldquo;effects on fertility&rdquo; includes adverse effects on sexual function and fertility; and c) &ldquo;developmental toxicity&rdquo; includes adverse effects on development of the offspring."@en ;
   foaf:page <https://identifiers.org/aop/592> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/592> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  rdfs:label "DBDPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "This study is applicable for assessing the toxic effects of DBDPE at environmentally relevant concentrations on the reproductive systems of adult male zebrafish and mammals (mouse spermatogonial cells), particularly suitable for toxicity studies at the level of adult males and germ cells."@en ;
   foaf:page <https://identifiers.org/aop/592> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/592> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  rdfs:label "DBDPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Maintenance of sustainable fish and wildlife populations (i.e., adequate to ensure long-term delivery of valued ecosystem services) is a widely accepted regulatory goal upon which risk assessments and risk management decisions are based."@en ;
   foaf:page <https://identifiers.org/aop/592> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/592> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  rdfs:label "DBDPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Under REACH, information on reproductive toxicity is required for chemicals with an annual production/importation volume of 10 metric tonnes or more. Standard information requirements include a screening study on reproduction toxicity (OECD TG 421/422) at Annex VIII (10-100 t.p.a), a prenatal developmental toxicity study (OECD 414) on a first species at Annex IX (100-1000 t.p.a), and from March 2015 the OECD 443(Extended One-Generation Reproductive Toxicity Study) is reproductive toxicity requirement instead of the two generation reproductive toxicity study (OECD TG 416). If not conducted already at Annex IX, a prenatal developmental toxicity study on a second species at Annex X (&ge; 1000 t.p.a.).  Under the Biocidal Products Regulation (BPR), information is also required on reproductive toxicity for active substances as part of core data set and additional data set (EU 2012, ECHA 2013). As a core data set, prenatal developmental toxicity study (EU TM B.31) in rabbits as a first species and a two-generation reproduction toxicity study (EU TM B.31) are required. OECD TG 443 (Extended One-Generation Reproductive Toxicity Study) shall be considered as an alternative approach to the multi-generation study.) According to the Classification, Labelling and Packaging (CLP) regulation (EC, 200; Annex I: 3.7.1.1): a) &ldquo;reproductive toxicity&rdquo; includes adverse effects on sexual function and fertility in adult males and females, as well as developmental toxicity in the offspring; b) &ldquo;effects on fertility&rdquo; includes adverse effects on sexual function and fertility; and c) &ldquo;developmental toxicity&rdquo; includes adverse effects on development of the offspring."@en ;
   foaf:page <https://identifiers.org/aop/592> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/592> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  rdfs:label "DBDPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "This study is applicable for assessing the toxic effects of DBDPE at environmentally relevant concentrations on the reproductive systems of adult male zebrafish and mammals (mouse spermatogonial cells), particularly suitable for toxicity studies at the level of adult males and germ cells."@en ;
   foaf:page <https://identifiers.org/aop/592> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/592> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  rdfs:label "DBDPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Maintenance of sustainable fish and wildlife populations (i.e., adequate to ensure long-term delivery of valued ecosystem services) is a widely accepted regulatory goal upon which risk assessments and risk management decisions are based."@en ;
   foaf:page <https://identifiers.org/aop/592> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/592> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  rdfs:label "DBDPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Under REACH, information on reproductive toxicity is required for chemicals with an annual production/importation volume of 10 metric tonnes or more. Standard information requirements include a screening study on reproduction toxicity (OECD TG 421/422) at Annex VIII (10-100 t.p.a), a prenatal developmental toxicity study (OECD 414) on a first species at Annex IX (100-1000 t.p.a), and from March 2015 the OECD 443(Extended One-Generation Reproductive Toxicity Study) is reproductive toxicity requirement instead of the two generation reproductive toxicity study (OECD TG 416). If not conducted already at Annex IX, a prenatal developmental toxicity study on a second species at Annex X (&ge; 1000 t.p.a.).  Under the Biocidal Products Regulation (BPR), information is also required on reproductive toxicity for active substances as part of core data set and additional data set (EU 2012, ECHA 2013). As a core data set, prenatal developmental toxicity study (EU TM B.31) in rabbits as a first species and a two-generation reproduction toxicity study (EU TM B.31) are required. OECD TG 443 (Extended One-Generation Reproductive Toxicity Study) shall be considered as an alternative approach to the multi-generation study.) According to the Classification, Labelling and Packaging (CLP) regulation (EC, 200; Annex I: 3.7.1.1): a) &ldquo;reproductive toxicity&rdquo; includes adverse effects on sexual function and fertility in adult males and females, as well as developmental toxicity in the offspring; b) &ldquo;effects on fertility&rdquo; includes adverse effects on sexual function and fertility; and c) &ldquo;developmental toxicity&rdquo; includes adverse effects on development of the offspring."@en ;
   foaf:page <https://identifiers.org/aop/592> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/592> a sbd:Model ;
-  rdfs:label "DBEPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
+  rdfs:label "DBDPE-induced DNA strand breaks and LDH activity inhibition leading to population growth rate decline via energy metabolism disrupt and apoptosis"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "This study is applicable for assessing the toxic effects of DBDPE at environmentally relevant concentrations on the reproductive systems of adult male zebrafish and mammals (mouse spermatogonial cells), particularly suitable for toxicity studies at the level of adult males and germ cells."@en ;
   foaf:page <https://identifiers.org/aop/592> ;
@@ -5323,6 +5330,69 @@
   foaf:page <https://identifiers.org/aop/605> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/612> a sbd:Model ;
+  rdfs:label "Peroxisome proliferator-activated receptor alpha activation leading to early life stage mortality via reduced adenosine triphosphate"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Poor early life stage survival is an endpoint of major relevance to environmental regulators, as it is likely to lead to population decline.&nbsp; Early-life stage, acute and chronic test guidelines have been established by the Organisation for Economic Co-operation and Development (OECD), U.S. Environmental Protection Agency (EPA) and Environment and Climate Change Canada (ECCC), and are currently used in risk assessments to set limits for safe exposures.&nbsp; Aquatic test guidlines are most prevalent and include OECD210, OECD229, EPA850.1400 and ECCC&nbsp; EPS 1/RM/28 for fish and OECD241 for frogs."@en ;
+  foaf:page <https://identifiers.org/aop/612> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/612> a sbd:Model ;
+  rdfs:label "Peroxisome proliferator-activated receptor alpha activation leading to early life stage mortality via reduced adenosine triphosphate"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Fibrates are ligands of PPAR&alpha; (Staels et al. 1998).  Phthalates  MHEP (CAS 4376-20-9) directly binds in vitro to PPAR&alpha; (Lapinskas et al. 2005) and activates this receptor in transactivation assays PPAR&alpha; (Lapinskas et al. 2005), (Maloney and Waxman 1999), (Hurst and Waxman 2003), (Bility et al. 2004), (Lampen, Zimnik, and Nau 2003), (Venkata et al. 2006) ]. DEHP (CAS 117-81-7) has not been found to bind and activate PPAR&alpha; (Lapinskas et al. 2005), (Maloney and Waxman 1999). However, the recent studies shown activation of PPAR&alpha; (ToxCastTM Data).  Notably, PPAR&alpha; are responsive to DEHP in vitro as they are translocated to the nucleus (in primary Sertoli cells) (Dufour et al. 2003), (Bhattacharya et al. 2005). Expression of PPAR&alpha; [mRNA and protein] has been reported to be also modulated by phthtalates: (to be up-regulated in vivo upon DEHP treatment (Xu et al. 2010) and down-regulated by Diisobutyl phthalate (DiBP) (Boberg et al. 2008)).   Perfluorooctanoic Acid (PFOA) is known to activate PPAR&alpha; (Vanden Heuvel et al. 2006).  Organotin  Tributyltin (TBT) activates all three heterodimers of PPAR with RXR, primarily through its interaction with RXR (le Maire et al. 2009)"@en ;
+  foaf:page <https://identifiers.org/aop/612> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/612> a sbd:Model ;
+  rdfs:label "Peroxisome proliferator-activated receptor alpha activation leading to early life stage mortality via reduced adenosine triphosphate"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP was developed to capture the conserved mitochondrial and metabolic perturbations following PPAR&alpha; activation observed in multiple species. Peroxisome proliferators, including PFAS and phthalates, activate PPAR&alpha; and induce transcriptional programs that increase &beta;-oxidation of fatty acids. Excessive &beta;-oxidation perturbs mitochondrial homeostasis, resulting in oxidative stress, ATP depletion, and vascular defects. These mechanisms are consistent with observed early life stage lethality in zebrafish and other fish models exposed to PPAR&alpha; agonists. The AOP contributes to the expanding network of metabolism-centered AOPs and provides biological context for developmental toxicity mechanisms without relying on animal testing."@en ;
+  foaf:page <https://identifiers.org/aop/612> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/613> a sbd:Model ;
+  rdfs:label "Peroxisome proliferator-activated receptor alpha activation leading to early life stage mortality via increased reactive oxygen species production"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Poor early life stage survival is an endpoint of major relevance to environmental regulators, as it is likely to lead to population decline.&nbsp; Early-life stage, acute and chronic test guidelines have been established by the Organisation for Economic Co-operation and Development (OECD), U.S. Environmental Protection Agency (EPA) and Environment and Climate Change Canada (ECCC), and are currently used in risk assessments to set limits for safe exposures.&nbsp; Aquatic test guidlines are most prevalent and include OECD210, OECD229, EPA850.1400 and ECCC&nbsp; EPS 1/RM/28 for fish and OECD241 for frogs."@en ;
+  foaf:page <https://identifiers.org/aop/613> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/613> a sbd:Model ;
+  rdfs:label "Peroxisome proliferator-activated receptor alpha activation leading to early life stage mortality via increased reactive oxygen species production"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Fibrates are ligands of PPAR&alpha; (Staels et al. 1998).  Phthalates  MHEP (CAS 4376-20-9) directly binds in vitro to PPAR&alpha; (Lapinskas et al. 2005) and activates this receptor in transactivation assays PPAR&alpha; (Lapinskas et al. 2005), (Maloney and Waxman 1999), (Hurst and Waxman 2003), (Bility et al. 2004), (Lampen, Zimnik, and Nau 2003), (Venkata et al. 2006) ]. DEHP (CAS 117-81-7) has not been found to bind and activate PPAR&alpha; (Lapinskas et al. 2005), (Maloney and Waxman 1999). However, the recent studies shown activation of PPAR&alpha; (ToxCastTM Data).  Notably, PPAR&alpha; are responsive to DEHP in vitro as they are translocated to the nucleus (in primary Sertoli cells) (Dufour et al. 2003), (Bhattacharya et al. 2005). Expression of PPAR&alpha; [mRNA and protein] has been reported to be also modulated by phthtalates: (to be up-regulated in vivo upon DEHP treatment (Xu et al. 2010) and down-regulated by Diisobutyl phthalate (DiBP) (Boberg et al. 2008)).   Perfluorooctanoic Acid (PFOA) is known to activate PPAR&alpha; (Vanden Heuvel et al. 2006).  Organotin  Tributyltin (TBT) activates all three heterodimers of PPAR with RXR, primarily through its interaction with RXR (le Maire et al. 2009)"@en ;
+  foaf:page <https://identifiers.org/aop/613> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/613> a sbd:Model ;
+  rdfs:label "Peroxisome proliferator-activated receptor alpha activation leading to early life stage mortality via increased reactive oxygen species production"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "The AOP was developed to capture the conserved mitochondrial and oxidative stress mechanisms underlying developmental toxicity following PPAR&alpha; activation. Chemicals such as PFAS, phthalates, and fibrates activate PPAR&alpha;, enhancing fatty acid oxidation and increasing ROS generation. Disruption of mitochondrial coupling and energy depletion leads to vascular leakage and cardiac defects that contribute to embryo lethality. This AOP builds on existing AOPs describing PPAR&alpha; activation (Event 227) and oxidative stress (Event 1115) to form a metabolism-centered AOP network relevant to fish early life stages."@en ;
+  foaf:page <https://identifiers.org/aop/613> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/614> a sbd:Model ;
+  rdfs:label "Peroxisome proliferator-activated receptor alpha activation leading to early life stage mortality via reduced vascular endothelial growth factor"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Poor early life stage survival is an endpoint of major relevance to environmental regulators, as it is likely to lead to population decline.&nbsp; Early-life stage, acute and chronic test guidelines have been established by the Organisation for Economic Co-operation and Development (OECD), U.S. Environmental Protection Agency (EPA) and Environment and Climate Change Canada (ECCC), and are currently used in risk assessments to set limits for safe exposures.&nbsp; Aquatic test guidlines are most prevalent and include OECD210, OECD229, EPA850.1400 and ECCC&nbsp; EPS 1/RM/28 for fish and OECD241 for frogs."@en ;
+  foaf:page <https://identifiers.org/aop/614> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/614> a sbd:Model ;
+  rdfs:label "Peroxisome proliferator-activated receptor alpha activation leading to early life stage mortality via reduced vascular endothelial growth factor"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Fibrates are ligands of PPAR&alpha; (Staels et al. 1998).  Phthalates  MHEP (CAS 4376-20-9) directly binds in vitro to PPAR&alpha; (Lapinskas et al. 2005) and activates this receptor in transactivation assays PPAR&alpha; (Lapinskas et al. 2005), (Maloney and Waxman 1999), (Hurst and Waxman 2003), (Bility et al. 2004), (Lampen, Zimnik, and Nau 2003), (Venkata et al. 2006) ]. DEHP (CAS 117-81-7) has not been found to bind and activate PPAR&alpha; (Lapinskas et al. 2005), (Maloney and Waxman 1999). However, the recent studies shown activation of PPAR&alpha; (ToxCastTM Data).  Notably, PPAR&alpha; are responsive to DEHP in vitro as they are translocated to the nucleus (in primary Sertoli cells) (Dufour et al. 2003), (Bhattacharya et al. 2005). Expression of PPAR&alpha; [mRNA and protein] has been reported to be also modulated by phthtalates: (to be up-regulated in vivo upon DEHP treatment (Xu et al. 2010) and down-regulated by Diisobutyl phthalate (DiBP) (Boberg et al. 2008)).   Perfluorooctanoic Acid (PFOA) is known to activate PPAR&alpha; (Vanden Heuvel et al. 2006).  Organotin  Tributyltin (TBT) activates all three heterodimers of PPAR with RXR, primarily through its interaction with RXR (le Maire et al. 2009)"@en ;
+  foaf:page <https://identifiers.org/aop/614> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/614> a sbd:Model ;
+  rdfs:label "Peroxisome proliferator-activated receptor alpha activation leading to early life stage mortality via reduced vascular endothelial growth factor"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP was developed to elucidate a vascular-specific mechanistic route connecting PPAR&alpha; activation to developmental toxicity. Activation of PPAR&alpha;, a key transcription factor in lipid metabolism, modulates numerous downstream targets, including suppression of hypoxia-inducible factor 1-alpha (HIF1&alpha;) and VEGF expression, both critical regulators of angiogenesis. Impairment of VEGF signaling and reduced vascular branching are frequently observed in zebrafish embryos exposed to PPAR&alpha; agonists and PFAS. The resulting loss of vascular integrity contributes to hemopericardium and early developmental mortality. This AOP complements existing PPAR&alpha;- and mitochondrial-centered AOPs by defining a distinct, angiogenesis-focused mechanistic branch."@en ;
+  foaf:page <https://identifiers.org/aop/614> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/539> a sbd:Model ;
   rdfs:label "Decreased Sodium/Potassium ATPase activity leads to Heart failure"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
@@ -5345,21 +5415,21 @@
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/595> a sbd:Model ;
-  rdfs:label "Nanoplastic effect"@en ;
+  rdfs:label "Emerging OPFRS reproductive outcome pathway"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "A large number of drugs and chemicals have been shown to antagonise the AR using various AR reporter gene assays. The AR is specifically targeted in AR-sensitive cancers, for example the use of the anti-androgenic drug flutamide in treating prostate cancer (Alapi &amp; Fischer, 2006). Flutamide has also been used in several rodent in vivo studies showing anti-androgenic effects (feminization of male offspring) evident by e.g. short anogenital distance (AGD) in males (Foster &amp; Harris, 2005; Hass et al, 2007; Kita et al, 2016). QSAR models can predict AR antagonism for a wide range of chemicals, many of which have shown in vitro antagonistic potential (Vinggaard et al, 2008)."@en ;
   foaf:page <https://identifiers.org/aop/595> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/595> a sbd:Model ;
-  rdfs:label "Nanoplastic effect"@en ;
+  rdfs:label "Emerging OPFRS reproductive outcome pathway"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "A large number of drugs and chemicals have been shown to antagonise the AR using various AR reporter gene assays. The AR is specifically targeted in AR-sensitive cancers, for example the use of the anti-androgenic drug flutamide in treating prostate cancer (Alapi &amp; Fischer, 2006). Flutamide has also been used in several rodent in vivo studies showing anti-androgenic effects (feminization of male offspring) evident by e.g. short anogenital distance (AGD) in males (Foster &amp; Harris, 2005; Hass et al, 2007; Kita et al, 2016). QSAR models can predict AR antagonism for a wide range of chemicals, many of which have shown in vitro antagonistic potential (Vinggaard et al, 2008)."@en ;
   foaf:page <https://identifiers.org/aop/595> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/595> a sbd:Model ;
-  rdfs:label "Nanoplastic effect"@en ;
+  rdfs:label "Emerging OPFRS reproductive outcome pathway"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "A large number of drugs and chemicals have been shown to antagonise the AR using various AR reporter gene assays. The AR is specifically targeted in AR-sensitive cancers, for example the use of the anti-androgenic drug flutamide in treating prostate cancer (Alapi &amp; Fischer, 2006). Flutamide has also been used in several rodent in vivo studies showing anti-androgenic effects (feminization of male offspring) evident by e.g. short anogenital distance (AGD) in males (Foster &amp; Harris, 2005; Hass et al, 2007; Kita et al, 2016). QSAR models can predict AR antagonism for a wide range of chemicals, many of which have shown in vitro antagonistic potential (Vinggaard et al, 2008)."@en ;
   foaf:page <https://identifiers.org/aop/595> ;
@@ -5681,7 +5751,7 @@
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
 <https://identifiers.org/aop/581> a sbd:Model ;
-  rdfs:label "Glucocorticoid receptor (GR) activation leads to cognitive function (COG) decrease"@en ;
+  rdfs:label "Glucocorticoid receptor (GR) activation during development leads to cognitive function (COG) decrease"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "A prime example of impairments in cognitive function as the adverse outcome for regulatory action is developmental lead exposure and IQ function in children (Bellinger, 2012). In addition, testing for the impact of chemical exposures on cognitive function, often including spatially-mediated behaviors, is an integral part of both EPA and OECD developmental neurotoxicity guidelines (USEPA, 1998; OECD, 2007).&nbsp;"@en ;
   foaf:page <https://identifiers.org/aop/581> ;
@@ -5972,5 +6042,12 @@
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
   dc:description "Body Mass Index (BMI) is a widely used endpoint in epidemiology and clinical research, reflecting alterations in energy homeostasis and body composition. Although lifestyle and genetic factors are known contributors, there is growing evidence that environmental chemicals play a role in the regulation of adiposity via molecular mechanisms. Among these, the MR has emerged as a key player in adipose tissue biology, influencing lipid handling and storage. The originality of this AOP lies in the identification of MR activation as a novel molecular initiating event (MIE), which is currently underrepresented in existing AOP networks related to metabolic disruption."@en ;
   foaf:page <https://identifiers.org/aop/580> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://identifiers.org/aop/615> a sbd:Model ;
+  rdfs:label "Suppression of Keap1 cysteine oxidation leading to liver failure"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "This AOP provides a mechanistic framework for how suppression of Keap1 cysteine oxidation keeps Nrf2 repressed, diminishing hepatocellular antioxidant capacity and promoting iron-dependent lipid peroxidation and ferroptosis, ultimately leading to liver failure. The Keap1&ndash;Nrf2 node integrates xenobiotic, oxidative, and metabolic stress in hepatocytes; its dysfunction has broad consequences for glutathione synthesis, cystine uptake (SLC7A11), NADPH homeostasis, detoxifying enzymes (NQO1, HO-1), and lipid peroxide reduction via GPX4. This pathway is relevant to pharmaceuticals, botanicals, industrial chemicals, and mixture contexts that dampen Nrf2 signaling or elevate iron/PUFA susceptibility. Applications span regulatory toxicology, drug-induced liver injury (DILI) risk assessment, and formulation design."@en ;
+  foaf:page <https://identifiers.org/aop/615> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
