@@ -8071,17 +8071,6 @@
 <https://identifiers.org/aop.events/1396> rdfs:label "Increased, glucocorticoid receptor activity"@en .
 <https://identifiers.org/aop.events/1335> rdfs:label "Reduced, BDNF (Brain-derived neurotrophic factor)"@en .
 
-<https://identifiers.org/aop.relationships/1524> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1524"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1397> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1398> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1397> rdfs:label "Increased, serotonin transporter activity"@en .
-<https://identifiers.org/aop.events/1398> rdfs:label "Increased, intracellular serotonin"@en .
-
 <https://identifiers.org/aop.relationships/1528> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1528"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -10798,6 +10787,17 @@
 
 <https://identifiers.org/aop.events/2311> rdfs:label "Inhibition of PI3K-Akt pathway"@en .
 <https://identifiers.org/aop.events/1115> rdfs:label "Increase, Reactive oxygen species"@en .
+
+<https://identifiers.org/aop.relationships/3697> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3697"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1507> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/202> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1507> rdfs:label "Activation of PPARγ"@en .
+<https://identifiers.org/aop.events/202> rdfs:label "Inhibition, Nuclear factor kappa B (NF-kB)"@en .
 
 <https://identifiers.org/aop.relationships/3114> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3114"@en ;
@@ -14868,6 +14868,17 @@
 
 <https://identifiers.org/aop.events/1382> rdfs:label "Decrease, surfactant"@en .
 <https://identifiers.org/aop.events/1405> rdfs:label "Reduced, mucosal defense"@en .
+
+<https://identifiers.org/aop.relationships/1524> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 1524"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1397> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1398> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1397> rdfs:label "Increased, serotonin transporter activity"@en .
+<https://identifiers.org/aop.events/1398> rdfs:label "Increased, intracellular serotonin"@en .
 
 <https://identifiers.org/aop.relationships/1525> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1525"@en ;
@@ -19115,17 +19126,6 @@
 <https://identifiers.org/aop.events/307> rdfs:label "Increase, Vitellogenin synthesis in liver"@en .
 <https://identifiers.org/aop.events/220> rdfs:label "Increase, Plasma vitellogenin concentrations"@en .
 
-<https://identifiers.org/aop.relationships/337> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 337"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/309> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/78> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/309> rdfs:label "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development"@en .
-<https://identifiers.org/aop.events/78> rdfs:label "Reduction, Cumulative fecundity and spawning"@en .
-
 <https://identifiers.org/aop.relationships/3396> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3396"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -21576,7 +21576,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/1971> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/2326> rdfs:label "Lymphocytes T CD8+ cytotoxicity"@en .
+<https://identifiers.org/aop.events/2326> rdfs:label "LTCD8+ cytotoxic activity disruption"@en .
 <https://identifiers.org/aop.events/1971> rdfs:label "Increased, tumor growth"@en .
 
 <https://identifiers.org/aop.relationships/3356> a sbdbel:CausalAssertion ;
@@ -22403,6 +22403,39 @@
 
 <https://identifiers.org/aop.events/1983> rdfs:label "Disruption, action potential generation"@en .
 <https://identifiers.org/aop.events/2280> rdfs:label "Increased delay in heart electrical conduction"@en .
+
+<https://identifiers.org/aop.relationships/3698> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3698"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/202> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2394> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/202> rdfs:label "Inhibition, Nuclear factor kappa B (NF-kB)"@en .
+<https://identifiers.org/aop.events/2394> rdfs:label "Diminished survival of naive B lymphocytes"@en .
+
+<https://identifiers.org/aop.relationships/3699> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3699"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/202> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2395> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/202> rdfs:label "Inhibition, Nuclear factor kappa B (NF-kB)"@en .
+<https://identifiers.org/aop.events/2395> rdfs:label "Diminished proliferation of activated B lymphocytes "@en .
+
+<https://identifiers.org/aop.relationships/3700> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3700"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/202> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2396> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/202> rdfs:label "Inhibition, Nuclear factor kappa B (NF-kB)"@en .
+<https://identifiers.org/aop.events/2396> rdfs:label "Diminished differentiation of activated B lymphocytes "@en .
 
 <https://identifiers.org/aop.relationships/3302> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3302"@en ;
@@ -23251,6 +23284,17 @@
 <https://identifiers.org/aop.events/291> rdfs:label "Accumulation, Triglyceride"@en .
 <https://identifiers.org/aop.events/2334> rdfs:label "Increase, DGAT1"@en .
 
+<https://identifiers.org/aop.relationships/337> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 337"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/309> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/78> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/309> rdfs:label "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development"@en .
+<https://identifiers.org/aop.events/78> rdfs:label "Reduction, Cumulative fecundity and spawning"@en .
+
 <https://identifiers.org/aop.relationships/1567> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1567"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -23986,7 +24030,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/2324> rdfs:label "Dysregulation of Treg/Th17 cell ratio"@en .
-<https://identifiers.org/aop.events/2326> rdfs:label "Lymphocytes T CD8+ cytotoxicity"@en .
+<https://identifiers.org/aop.events/2326> rdfs:label "LTCD8+ cytotoxic activity disruption"@en .
 
 <https://identifiers.org/aop.relationships/3571> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3571"@en ;
@@ -24614,6 +24658,50 @@
 
 <https://identifiers.org/aop.events/2377> rdfs:label "Decrease, neural network maturation"@en .
 <https://identifiers.org/aop.events/2231> rdfs:label "Locomotor function. Impaired"@en .
+
+<https://identifiers.org/aop.relationships/3703> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3703"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2394> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2395> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2394> rdfs:label "Diminished survival of naive B lymphocytes"@en .
+<https://identifiers.org/aop.events/2395> rdfs:label "Diminished proliferation of activated B lymphocytes "@en .
+
+<https://identifiers.org/aop.relationships/3704> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3704"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2395> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2396> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2395> rdfs:label "Diminished proliferation of activated B lymphocytes "@en .
+<https://identifiers.org/aop.events/2396> rdfs:label "Diminished differentiation of activated B lymphocytes "@en .
+
+<https://identifiers.org/aop.relationships/3701> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3701"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2396> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2398> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2396> rdfs:label "Diminished differentiation of activated B lymphocytes "@en .
+<https://identifiers.org/aop.events/2398> rdfs:label "Reduced antibody production"@en .
+
+<https://identifiers.org/aop.relationships/3702> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3702"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2398> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2397> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2398> rdfs:label "Reduced antibody production"@en .
+<https://identifiers.org/aop.events/2397> rdfs:label "Diminished vaccine response"@en .
 
 <https://identifiers.org/aop.relationships/3347> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3347"@en ;
