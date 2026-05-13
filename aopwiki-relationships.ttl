@@ -3207,7 +3207,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1888> rdfs:label "Increased (ectopic) all-trans retinoic acid concentration"@en .
-<https://identifiers.org/aop.events/1889> rdfs:label "Premature initiation of meiosis in fetal male germ cells"@en .
+<https://identifiers.org/aop.events/1889> rdfs:label "Increased premature meiotic initiation in fetal male germ cells"@en .
 
 <https://identifiers.org/aop.relationships/2414> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2414"@en ;
@@ -7895,39 +7895,6 @@
 <https://identifiers.org/aop.events/1365> rdfs:label "Increase, Apoptosis"@en .
 <https://identifiers.org/aop.events/1097> rdfs:label "Occurrence, renal proximal tubular necrosis"@en .
 
-<https://identifiers.org/aop.relationships/1480> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1480"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1369> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1375> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1369> rdfs:label "Activation, PTGS-1 (Prostaglandin-endoperoxide synthase 1)"@en .
-<https://identifiers.org/aop.events/1375> rdfs:label "Increase, platelet aggregation"@en .
-
-<https://identifiers.org/aop.relationships/1481> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1481"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1369> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1374> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1369> rdfs:label "Activation, PTGS-1 (Prostaglandin-endoperoxide synthase 1)"@en .
-<https://identifiers.org/aop.events/1374> rdfs:label "Increase, mucosal blood flow"@en .
-
-<https://identifiers.org/aop.relationships/1482> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1482"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1369> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1373> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1369> rdfs:label "Activation, PTGS-1 (Prostaglandin-endoperoxide synthase 1)"@en .
-<https://identifiers.org/aop.events/1373> rdfs:label "Increase, mucous"@en .
-
 <https://identifiers.org/aop.relationships/1483> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1483"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -8246,17 +8213,6 @@
 
 <https://identifiers.org/aop.events/149> rdfs:label "Increase, Inflammation"@en .
 <https://identifiers.org/aop.events/1196> rdfs:label "Increased, Invasion"@en .
-
-<https://identifiers.org/aop.relationships/2574> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2574"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/149> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1376> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/149> rdfs:label "Increase, Inflammation"@en .
-<https://identifiers.org/aop.events/1376> rdfs:label "Increase, angiogenesis"@en .
 
 <https://identifiers.org/aop.relationships/2976> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2976"@en ;
@@ -10865,6 +10821,17 @@
 <https://identifiers.org/aop.events/2285> rdfs:label "Increased the delayed and early afterdepolarizations"@en .
 <https://identifiers.org/aop.events/1106> rdfs:label "Occurrence, cardiac arrhythmia"@en .
 
+<https://identifiers.org/aop.relationships/3778> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3778"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1887> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1888> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1887> rdfs:label "Inhibition of CYP26B1 activity"@en .
+<https://identifiers.org/aop.events/1888> rdfs:label "Increased (ectopic) all-trans retinoic acid concentration"@en .
+
 <https://identifiers.org/aop.relationships/3725> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3725"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -10897,6 +10864,39 @@
 
 <https://identifiers.org/aop.events/2412> rdfs:label "Increase, Hepatic intracellular active glucocorticoids"@en .
 <https://identifiers.org/aop.events/122> rdfs:label "Increase, Glucocorticoid receptor activation"@en .
+
+<https://identifiers.org/aop.relationships/3777> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3777"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2419> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1882> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2419> rdfs:label "Decreased, Retinoic Acid Receptor Activation"@en .
+<https://identifiers.org/aop.events/1882> rdfs:label "Disrupted, initiation of meiosis of oogonia in the ovary"@en .
+
+<https://identifiers.org/aop.relationships/3780> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3780"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2420> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1889> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2420> rdfs:label "Increased, Retinoic Acid Receptor Activation"@en .
+<https://identifiers.org/aop.events/1889> rdfs:label "Increased premature meiotic initiation in fetal male germ cells"@en .
+
+<https://identifiers.org/aop.relationships/3790> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3790"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2428> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1392> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2428> rdfs:label "Gut derived PAMPs, increased"@en .
+<https://identifiers.org/aop.events/1392> rdfs:label "Increase, Oxidative Stress "@en .
 
 <https://identifiers.org/aop.relationships/3342> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3342"@en ;
@@ -12130,17 +12130,6 @@
 <https://identifiers.org/aop.events/1614> rdfs:label "Decrease, androgen receptor activation"@en .
 <https://identifiers.org/aop.events/1786> rdfs:label "Nipple retention (NR), increased"@en .
 
-<https://identifiers.org/aop.relationships/3451> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3451"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1614> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/743> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1614> rdfs:label "Decrease, androgen receptor activation"@en .
-<https://identifiers.org/aop.events/743> rdfs:label "Decreased, Testosterone binding to androgen receptor (hypothalamus)"@en .
-
 <https://identifiers.org/aop.relationships/2798> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2798"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -12921,6 +12910,17 @@
 
 <https://identifiers.org/aop.events/1886> rdfs:label "Overexpression of rasl11b"@en .
 <https://identifiers.org/aop.events/1821> rdfs:label "Decrease, Cell proliferation"@en .
+
+<https://identifiers.org/aop.relationships/3781> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3781"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1889> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1890> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1889> rdfs:label "Increased premature meiotic initiation in fetal male germ cells"@en .
+<https://identifiers.org/aop.events/1890> rdfs:label "Decrease (loss of) fetal male germ cells"@en .
 
 <https://identifiers.org/aop.relationships/2447> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2447"@en ;
@@ -14242,17 +14242,6 @@
 <https://identifiers.org/aop.events/1023> rdfs:label "Increased, Thyroid-stimulating hormone (TSH)"@en .
 <https://identifiers.org/aop.events/1828> rdfs:label "Increased, Thyroxine (T4) in serum"@en .
 
-<https://identifiers.org/aop.relationships/2424> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 2424"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1023> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/739> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1023> rdfs:label "Increased, Thyroid-stimulating hormone (TSH)"@en .
-<https://identifiers.org/aop.events/739> rdfs:label "Increase, Hypertrophy and proliferation (follicular cell)"@en .
-
 <https://identifiers.org/aop.relationships/1609> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1609"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -14891,6 +14880,39 @@
 <https://identifiers.org/aop.events/1366> rdfs:label "Decrease, Oogenesis"@en .
 <https://identifiers.org/aop.events/328> rdfs:label "Decrease, Fecundity"@en .
 
+<https://identifiers.org/aop.relationships/1480> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 1480"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1369> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1375> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1369> rdfs:label "Activation, PTGS-1 (Prostaglandin-endoperoxide synthase 1)"@en .
+<https://identifiers.org/aop.events/1375> rdfs:label "Increase, platelet aggregation"@en .
+
+<https://identifiers.org/aop.relationships/1481> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 1481"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1369> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1374> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1369> rdfs:label "Activation, PTGS-1 (Prostaglandin-endoperoxide synthase 1)"@en .
+<https://identifiers.org/aop.events/1374> rdfs:label "Increase, mucosal blood flow"@en .
+
+<https://identifiers.org/aop.relationships/1482> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 1482"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1369> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1373> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1369> rdfs:label "Activation, PTGS-1 (Prostaglandin-endoperoxide synthase 1)"@en .
+<https://identifiers.org/aop.events/1373> rdfs:label "Increase, mucous"@en .
+
 <https://identifiers.org/aop.relationships/1478> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1478"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -15254,17 +15276,6 @@
 <https://identifiers.org/aop.events/1415> rdfs:label "Reduced, GABA-A receptor activation"@en .
 <https://identifiers.org/aop.events/1416> rdfs:label "Decreased, intracellular chloride"@en .
 
-<https://identifiers.org/aop.relationships/1556> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1556"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1417> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1419> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1417> rdfs:label "NFE2/Nrf2 repression"@en .
-<https://identifiers.org/aop.events/1419> rdfs:label "Reduced, FXR activity"@en .
-
 <https://identifiers.org/aop.relationships/2984> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2984"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -15298,17 +15309,6 @@
 <https://identifiers.org/aop.events/1417> rdfs:label "NFE2/Nrf2 repression"@en .
 <https://identifiers.org/aop.events/1445> rdfs:label "Increase, Lipid peroxidation"@en .
 
-<https://identifiers.org/aop.relationships/1557> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1557"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1419> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1420> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1419> rdfs:label "Reduced, FXR activity"@en .
-<https://identifiers.org/aop.events/1420> rdfs:label "Reduced, SHP activity"@en .
-
 <https://identifiers.org/aop.relationships/158> a sbdbel:CausalAssertion ;
   rdfs:label "KER 158"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -15319,17 +15319,6 @@
 
 <https://identifiers.org/aop.events/142> rdfs:label "Hyperplasia, Hyperplasia"@en .
 <https://identifiers.org/aop.events/334> rdfs:label "Promotion, Hepatocelluar carcinoma"@en .
-
-<https://identifiers.org/aop.relationships/1558> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 1558"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1420> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1421> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1420> rdfs:label "Reduced, SHP activity"@en .
-<https://identifiers.org/aop.events/1421> rdfs:label "Activated, LXR"@en .
 
 <https://identifiers.org/aop.relationships/1559> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1559"@en ;
@@ -15847,6 +15836,17 @@
 
 <https://identifiers.org/aop.events/1481> rdfs:label "Inhibition of mitochondrial DNA polymerase gamma (Pol gamma)"@en .
 <https://identifiers.org/aop.events/1482> rdfs:label "Depletion, mtDNA "@en .
+
+<https://identifiers.org/aop.relationships/2574> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 2574"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/149> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1376> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/149> rdfs:label "Increase, Inflammation"@en .
+<https://identifiers.org/aop.events/1376> rdfs:label "Increase, angiogenesis"@en .
 
 <https://identifiers.org/aop.relationships/1839> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1839"@en ;
@@ -16827,6 +16827,17 @@
 <https://identifiers.org/aop.events/1752> rdfs:label "Increased Angiotensin II "@en .
 <https://identifiers.org/aop.events/1851> rdfs:label "Binding of agonist, Angiotensin II receptor type 1 receptor (AT1R)"@en .
 
+<https://identifiers.org/aop.relationships/3783> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3783"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1757> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/406> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1757> rdfs:label "Reduce, Sperm count"@en .
+<https://identifiers.org/aop.events/406> rdfs:label "decreased, Fertility"@en .
+
 <https://identifiers.org/aop.relationships/2274> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2274"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -17629,6 +17640,17 @@
 
 <https://identifiers.org/aop.events/1872> rdfs:label "Olfactory epithelium degeneration"@en .
 <https://identifiers.org/aop.events/1873> rdfs:label "impaired olfactory function (anosmia) "@en .
+
+<https://identifiers.org/aop.relationships/3782> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3782"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1890> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1757> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1890> rdfs:label "Decrease (loss of) fetal male germ cells"@en .
+<https://identifiers.org/aop.events/1757> rdfs:label "Reduce, Sperm count"@en .
 
 <https://identifiers.org/aop.relationships/2408> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2408"@en ;
@@ -20952,39 +20974,6 @@
 <https://identifiers.org/aop.events/735> rdfs:label "Increase, Hyperplasia (terminal bronchiolar cells)"@en .
 <https://identifiers.org/aop.events/736> rdfs:label "Increase, Adenomas/carcinomas (bronchioloalveolar)"@en .
 
-<https://identifiers.org/aop.relationships/742> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 742"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/739> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/740> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/739> rdfs:label "Increase, Hypertrophy and proliferation (follicular cell)"@en .
-<https://identifiers.org/aop.events/740> rdfs:label "Increase, Hyperplasia (follicular cells)"@en .
-
-<https://identifiers.org/aop.relationships/743> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 743"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/740> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/741> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/740> rdfs:label "Increase, Hyperplasia (follicular cells)"@en .
-<https://identifiers.org/aop.events/741> rdfs:label "Increase, Adenomas/carcinomas (follicular cell)"@en .
-
-<https://identifiers.org/aop.relationships/731> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 731"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/744> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/745> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/744> rdfs:label "Increase, Hyperplasia (Leydig cells)"@en .
-<https://identifiers.org/aop.events/745> rdfs:label "Increase, Leydig cell tumors"@en .
-
 <https://identifiers.org/aop.relationships/3672> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3672"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -21050,17 +21039,6 @@
 
 <https://identifiers.org/aop.events/752> rdfs:label "Altered, Meiotic chromosome dynamics"@en .
 <https://identifiers.org/aop.events/1965> rdfs:label "Increase, Pollen abnormal"@en .
-
-<https://identifiers.org/aop.relationships/745> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 745"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/754> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/744> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/754> rdfs:label "Increased, Luteinizing hormone (LH) "@en .
-<https://identifiers.org/aop.events/744> rdfs:label "Increase, Hyperplasia (Leydig cells)"@en .
 
 <https://identifiers.org/aop.relationships/2466> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2466"@en ;
@@ -21238,17 +21216,6 @@
 <https://identifiers.org/aop.events/784> rdfs:label "Increase, Hyperplasia (tubular epithelial cells)"@en .
 <https://identifiers.org/aop.events/713> rdfs:label "Increase, Adenomas/carcinomas (renal tubular)"@en .
 
-<https://identifiers.org/aop.relationships/794> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 794"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/791> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/744> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/791> rdfs:label "Increased, Leutinizing hormone (LH)"@en .
-<https://identifiers.org/aop.events/744> rdfs:label "Increase, Hyperplasia (Leydig cells)"@en .
-
 <https://identifiers.org/aop.relationships/2085> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2085"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -21314,6 +21281,28 @@
 
 <https://identifiers.org/aop.events/9> rdfs:label "Activation, 5HT2c"@en .
 <https://identifiers.org/aop.events/294> rdfs:label "N/A, Unknown"@en .
+
+<https://identifiers.org/aop.relationships/3792> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3792"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/902> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1931> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/902> rdfs:label "Inflammation, Liver"@en .
+<https://identifiers.org/aop.events/1931> rdfs:label "Intestinal barrier, disruption"@en .
+
+<https://identifiers.org/aop.relationships/3793> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3793"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/902> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1489> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/902> rdfs:label "Inflammation, Liver"@en .
+<https://identifiers.org/aop.events/1489> rdfs:label "Increase, Steatohepatitis"@en .
 
 <https://identifiers.org/aop.relationships/3647> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3647"@en ;
@@ -21898,17 +21887,6 @@
 <https://identifiers.org/aop.events/2243> rdfs:label "Succinate Accumulation"@en .
 <https://identifiers.org/aop.events/1619> rdfs:label "Increase, DNA methyltransferase inhibition"@en .
 
-<https://identifiers.org/aop.relationships/3670> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3670"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/2380> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/746> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/2380> rdfs:label "Increase, transcription of the dopamine transporter (SLC6A3) gene"@en .
-<https://identifiers.org/aop.events/746> rdfs:label "Increase, Dopaminergic activity"@en .
-
 <https://identifiers.org/aop.relationships/3735> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3735"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -21942,6 +21920,17 @@
 <https://identifiers.org/aop.events/2408> rdfs:label "Increase, Adipose lipolysis"@en .
 <https://identifiers.org/aop.events/465> rdfs:label "Increased, Fatty acid influx"@en .
 
+<https://identifiers.org/aop.relationships/3788> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3788"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2427> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1931> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2427> rdfs:label "Bile acid composition in bile and intestine, altered"@en .
+<https://identifiers.org/aop.events/1931> rdfs:label "Intestinal barrier, disruption"@en .
+
 <https://identifiers.org/aop.relationships/3652> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3652"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -21952,6 +21941,17 @@
 
 <https://identifiers.org/aop.events/2376> rdfs:label "Inhibition, organic anion-transporting polypeptide 1C1 (OATP1C1)"@en .
 <https://identifiers.org/aop.events/2093> rdfs:label "Brain thyroid hormone (T4/T3) decreased"@en .
+
+<https://identifiers.org/aop.relationships/3796> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3796"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2423> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/1421> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2423> rdfs:label "Hepatic SHP, decreased"@en .
+<https://identifiers.org/aop.events/1421> rdfs:label "Activated, LXR"@en .
 
 <https://identifiers.org/aop.relationships/3445> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3445"@en ;
@@ -22151,6 +22151,17 @@
 <https://identifiers.org/aop.events/1392> rdfs:label "Increase, Oxidative Stress "@en .
 <https://identifiers.org/aop.events/2245> rdfs:label "Altered Cell Differentiation Signaling"@en .
 
+<https://identifiers.org/aop.relationships/3791> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3791"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/902> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1392> rdfs:label "Increase, Oxidative Stress "@en .
+<https://identifiers.org/aop.events/902> rdfs:label "Inflammation, Liver"@en .
+
 <https://identifiers.org/aop.relationships/3690> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3690"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -22227,6 +22238,17 @@
 
 <https://identifiers.org/aop.events/1613> rdfs:label "Decrease, dihydrotestosterone (DHT) levels"@en .
 <https://identifiers.org/aop.events/2213> rdfs:label "Impaired, urethral tube closure "@en .
+
+<https://identifiers.org/aop.relationships/3451> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3451"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1614> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/743> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1614> rdfs:label "Decrease, androgen receptor activation"@en .
+<https://identifiers.org/aop.events/743> rdfs:label "Decreased, Testosterone binding to androgen receptor (hypothalamus)"@en .
 
 <https://identifiers.org/aop.relationships/3315> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3315"@en ;
@@ -22392,6 +22414,28 @@
 
 <https://identifiers.org/aop.events/1825> rdfs:label "Increase, Cell death"@en .
 <https://identifiers.org/aop.events/2317> rdfs:label "Loss of olfactory function"@en .
+
+<https://identifiers.org/aop.relationships/3776> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3776"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1881> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2419> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1881> rdfs:label "Decreased, all-trans retinoic acid (atRA) concentration"@en .
+<https://identifiers.org/aop.events/2419> rdfs:label "Decreased, Retinoic Acid Receptor Activation"@en .
+
+<https://identifiers.org/aop.relationships/3779> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3779"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1888> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2420> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1888> rdfs:label "Increased (ectopic) all-trans retinoic acid concentration"@en .
+<https://identifiers.org/aop.events/2420> rdfs:label "Increased, Retinoic Acid Receptor Activation"@en .
 
 <https://identifiers.org/aop.relationships/3124> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3124"@en ;
@@ -22745,6 +22789,17 @@
 <https://identifiers.org/aop.events/1018> rdfs:label "Activation, Glutamate-gated chloride channels"@en .
 <https://identifiers.org/aop.events/761> rdfs:label "Increased, Chloride conductance"@en .
 
+<https://identifiers.org/aop.relationships/2424> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 2424"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1023> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/739> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1023> rdfs:label "Increased, Thyroid-stimulating hormone (TSH)"@en .
+<https://identifiers.org/aop.events/739> rdfs:label "Increase, Hypertrophy and proliferation (follicular cell)"@en .
+
 <https://identifiers.org/aop.relationships/3640> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3640"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -22766,6 +22821,17 @@
 
 <https://identifiers.org/aop.events/1038> rdfs:label "Activation, beta-2 adrenergic receptor"@en .
 <https://identifiers.org/aop.events/2284> rdfs:label " Increased Intracellular cAMP Levels"@en .
+
+<https://identifiers.org/aop.relationships/3773> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3773"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1065> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2417> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1065> rdfs:label "Activation, estrogen receptor alpha"@en .
+<https://identifiers.org/aop.events/2417> rdfs:label "Increased, differentiation to ovaries"@en .
 
 <https://identifiers.org/aop.relationships/3646> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3646"@en ;
@@ -22964,6 +23030,17 @@
 
 <https://identifiers.org/aop.events/140> rdfs:label "Decreased, HSD17B10 expression"@en .
 <https://identifiers.org/aop.events/8> rdfs:label "Decreased, 3-hydroxyacyl-CoA dehydrogenase type-2 activity"@en .
+
+<https://identifiers.org/aop.relationships/3794> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3794"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1417> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2421> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1417> rdfs:label "NFE2/Nrf2 repression"@en .
+<https://identifiers.org/aop.events/2421> rdfs:label " Inhibition, Intestinal FXR"@en .
 
 <https://identifiers.org/aop.relationships/1565> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1565"@en ;
@@ -23239,6 +23316,17 @@
 
 <https://identifiers.org/aop.events/1883> rdfs:label "Decreased, size of the ovarian reserve"@en .
 <https://identifiers.org/aop.events/2305> rdfs:label "Premature ovarian Insufficiency"@en .
+
+<https://identifiers.org/aop.relationships/3789> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3789"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1931> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2428> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1931> rdfs:label "Intestinal barrier, disruption"@en .
+<https://identifiers.org/aop.events/2428> rdfs:label "Gut derived PAMPs, increased"@en .
 
 <https://identifiers.org/aop.relationships/3411> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3411"@en ;
@@ -23724,6 +23812,28 @@
 <https://identifiers.org/aop.events/726> rdfs:label "Increased, Induction of pyruvate dehydrogenase (PDH)"@en .
 <https://identifiers.org/aop.events/769> rdfs:label "Increase, Oxidative metabolism"@en .
 
+<https://identifiers.org/aop.relationships/742> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 742"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/739> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/740> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/739> rdfs:label "Increase, Hypertrophy and proliferation (follicular cell)"@en .
+<https://identifiers.org/aop.events/740> rdfs:label "Increase, Hyperplasia (follicular cells)"@en .
+
+<https://identifiers.org/aop.relationships/743> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 743"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/740> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/741> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/740> rdfs:label "Increase, Hyperplasia (follicular cells)"@en .
+<https://identifiers.org/aop.events/741> rdfs:label "Increase, Adenomas/carcinomas (follicular cell)"@en .
+
 <https://identifiers.org/aop.relationships/744> a sbdbel:CausalAssertion ;
   rdfs:label "KER 744"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -23734,6 +23844,17 @@
 
 <https://identifiers.org/aop.events/743> rdfs:label "Decreased, Testosterone binding to androgen receptor (hypothalamus)"@en .
 <https://identifiers.org/aop.events/754> rdfs:label "Increased, Luteinizing hormone (LH) "@en .
+
+<https://identifiers.org/aop.relationships/731> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 731"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/744> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/745> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/744> rdfs:label "Increase, Hyperplasia (Leydig cells)"@en .
+<https://identifiers.org/aop.events/745> rdfs:label "Increase, Leydig cell tumors"@en .
 
 <https://identifiers.org/aop.relationships/732> a sbdbel:CausalAssertion ;
   rdfs:label "KER 732"@en ;
@@ -23756,6 +23877,17 @@
 
 <https://identifiers.org/aop.events/749> rdfs:label "Decreased, Progesterone from corpus luteum"@en .
 <https://identifiers.org/aop.events/772> rdfs:label "Increase, Hyperplasia (glandular epithelial cells of endometrium)"@en .
+
+<https://identifiers.org/aop.relationships/745> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 745"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/754> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/744> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/754> rdfs:label "Increased, Luteinizing hormone (LH) "@en .
+<https://identifiers.org/aop.events/744> rdfs:label "Increase, Hyperplasia (Leydig cells)"@en .
 
 <https://identifiers.org/aop.relationships/752> a sbdbel:CausalAssertion ;
   rdfs:label "KER 752"@en ;
@@ -23921,6 +24053,17 @@
 
 <https://identifiers.org/aop.events/787> rdfs:label "Increase, Regenerative cell proliferation (hepatocytes)"@en .
 <https://identifiers.org/aop.events/774> rdfs:label "Increase, Preneoplastic foci (hepatocytes)"@en .
+
+<https://identifiers.org/aop.relationships/794> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 794"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/791> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/744> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/791> rdfs:label "Increased, Leutinizing hormone (LH)"@en .
+<https://identifiers.org/aop.events/744> rdfs:label "Increase, Hyperplasia (Leydig cells)"@en .
 
 <https://identifiers.org/aop.relationships/795> a sbdbel:CausalAssertion ;
   rdfs:label "KER 795"@en ;
@@ -25066,6 +25209,17 @@
 <https://identifiers.org/aop.events/2379> rdfs:label "Disruption of the regulatory function of dopamine signaling components."@en .
 <https://identifiers.org/aop.events/2381> rdfs:label "Increase, transcription of the dopamine receptor (drd) gene."@en .
 
+<https://identifiers.org/aop.relationships/3670> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3670"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2380> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/746> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2380> rdfs:label "Increase, transcription of the dopamine transporter (SLC6A3) gene"@en .
+<https://identifiers.org/aop.events/746> rdfs:label "Increase, Dopaminergic activity"@en .
+
 <https://identifiers.org/aop.relationships/3671> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3671"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -25109,6 +25263,83 @@
 
 <https://identifiers.org/aop.events/2410> rdfs:label "Increase, 11β-Hydroxysteroid dehydrogenase type 1 activity "@en .
 <https://identifiers.org/aop.events/2412> rdfs:label "Increase, Hepatic intracellular active glucocorticoids"@en .
+
+<https://identifiers.org/aop.relationships/3774> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3774"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2417> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2418> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2417> rdfs:label "Increased, differentiation to ovaries"@en .
+<https://identifiers.org/aop.events/2418> rdfs:label "Increased, phenotypic female-biased sex ratio"@en .
+
+<https://identifiers.org/aop.relationships/3775> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3775"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2421> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2422> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2421> rdfs:label " Inhibition, Intestinal FXR"@en .
+<https://identifiers.org/aop.events/2422> rdfs:label "Ileal FGF15/FGF19 secretion, decreased"@en .
+
+<https://identifiers.org/aop.relationships/3795> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3795"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2421> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2423> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2421> rdfs:label " Inhibition, Intestinal FXR"@en .
+<https://identifiers.org/aop.events/2423> rdfs:label "Hepatic SHP, decreased"@en .
+
+<https://identifiers.org/aop.relationships/3784> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3784"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2422> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2424> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2422> rdfs:label "Ileal FGF15/FGF19 secretion, decreased"@en .
+<https://identifiers.org/aop.events/2424> rdfs:label "Hepatic CYP7A1, increased"@en .
+
+<https://identifiers.org/aop.relationships/3785> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3785"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2424> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2425> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2424> rdfs:label "Hepatic CYP7A1, increased"@en .
+<https://identifiers.org/aop.events/2425> rdfs:label "Intrahepatic bile acid burden, increased"@en .
+
+<https://identifiers.org/aop.relationships/3786> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3786"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2425> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2426> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2425> rdfs:label "Intrahepatic bile acid burden, increased"@en .
+<https://identifiers.org/aop.events/2426> rdfs:label "Hepatic BSEP (ABCB11), decreased"@en .
+
+<https://identifiers.org/aop.relationships/3787> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3787"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/2426> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/2427> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/2426> rdfs:label "Hepatic BSEP (ABCB11), decreased"@en .
+<https://identifiers.org/aop.events/2427> rdfs:label "Bile acid composition in bile and intestine, altered"@en .
 
 <https://identifiers.org/aop.relationships/3628> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3628"@en ;
