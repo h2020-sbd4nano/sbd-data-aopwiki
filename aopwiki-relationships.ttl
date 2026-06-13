@@ -899,17 +899,6 @@
 <https://identifiers.org/aop.events/1392> rdfs:label "Increase, Oxidative Stress "@en .
 <https://identifiers.org/aop.events/1908> rdfs:label "Cilia Beat Frequency, Decreased"@en .
 
-<https://identifiers.org/aop.relationships/3602> a sbdbel:CausalAssertion ;
-  rdfs:label "KER 3602"@en ;
-  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:cause <https://identifiers.org/aop.events/1392> ;
-  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
-  sbdbel:outcome <https://identifiers.org/aop.events/1446> ;
-  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
-
-<https://identifiers.org/aop.events/1392> rdfs:label "Increase, Oxidative Stress "@en .
-<https://identifiers.org/aop.events/1446> rdfs:label "Decrease, Coupling of oxidative phosphorylation"@en .
-
 <https://identifiers.org/aop.relationships/3311> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3311"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
@@ -1557,7 +1546,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1502> rdfs:label "Histone deacetylase inhibition"@en .
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 
 <https://identifiers.org/aop.relationships/1716> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1716"@en ;
@@ -1623,7 +1612,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1503> rdfs:label "Histone acetylation, increase"@en .
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 
 <https://identifiers.org/aop.relationships/1712> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1712"@en ;
@@ -1633,7 +1622,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/1262> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 <https://identifiers.org/aop.events/1262> rdfs:label "Apoptosis"@en .
 
 <https://identifiers.org/aop.relationships/3309> a sbdbel:CausalAssertion ;
@@ -1920,7 +1909,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1635> rdfs:label "Increase, DNA strand breaks"@en .
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 
 <https://identifiers.org/aop.relationships/3593> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3593"@en ;
@@ -1932,6 +1921,17 @@
 
 <https://identifiers.org/aop.events/1635> rdfs:label "Increase, DNA strand breaks"@en .
 <https://identifiers.org/aop.events/1281> rdfs:label "Increased, DNA Damage-Repair"@en .
+
+<https://identifiers.org/aop.relationships/3797> a sbdbel:CausalAssertion ;
+  rdfs:label "KER 3797"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:cause <https://identifiers.org/aop.events/1635> ;
+  sbdbel:relationship <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/> ;
+  sbdbel:outcome <https://identifiers.org/aop.events/55> ;
+  dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://identifiers.org/aop.events/1635> rdfs:label "Increase, DNA strand breaks"@en .
+<https://identifiers.org/aop.events/55> rdfs:label "Increase, Cell injury/death"@en .
 
 <https://identifiers.org/aop.relationships/1918> a sbdbel:CausalAssertion ;
   rdfs:label "KER 1918"@en ;
@@ -2030,7 +2030,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1656> rdfs:label "Antagonism, Thyroid Receptor "@en .
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 
 <https://identifiers.org/aop.relationships/173> a sbdbel:CausalAssertion ;
   rdfs:label "KER 173"@en ;
@@ -6749,7 +6749,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1194> rdfs:label "Increase, DNA damage"@en .
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 
 <https://identifiers.org/aop.relationships/3763> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3763"@en ;
@@ -8729,7 +8729,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/1767> rdfs:label "Increase, Protein oxidation"@en .
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 
 <https://identifiers.org/aop.relationships/2094> a sbdbel:CausalAssertion ;
   rdfs:label "KER 2094"@en ;
@@ -9784,7 +9784,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/2268> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/239> rdfs:label "Activation, Pregnane-X receptor, NR1l2"@en .
+<https://identifiers.org/aop.events/239> rdfs:label "Activation, Pregnane-X receptor, NR1I2"@en .
 <https://identifiers.org/aop.events/2268> rdfs:label "Decreased, insulin-induced gene 1 (INSIG1) protein activity"@en .
 
 <https://identifiers.org/aop.relationships/3100> a sbdbel:CausalAssertion ;
@@ -9795,7 +9795,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/54> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/239> rdfs:label "Activation, Pregnane-X receptor, NR1l2"@en .
+<https://identifiers.org/aop.events/239> rdfs:label "Activation, Pregnane-X receptor, NR1I2"@en .
 <https://identifiers.org/aop.events/54> rdfs:label "Up Regulation, CD36"@en .
 
 <https://identifiers.org/aop.relationships/268> a sbdbel:CausalAssertion ;
@@ -10004,7 +10004,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/167> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/456> rdfs:label "Suppression, Constitutive androstane receptor, NR1l3"@en .
+<https://identifiers.org/aop.events/456> rdfs:label "Suppression, Constitutive androstane receptor, NR1I3"@en .
 <https://identifiers.org/aop.events/167> rdfs:label "Activation, LXR"@en .
 
 <https://identifiers.org/aop.relationships/477> a sbdbel:CausalAssertion ;
@@ -10015,7 +10015,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/228> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/456> rdfs:label "Suppression, Constitutive androstane receptor, NR1l3"@en .
+<https://identifiers.org/aop.events/456> rdfs:label "Suppression, Constitutive androstane receptor, NR1I3"@en .
 <https://identifiers.org/aop.events/228> rdfs:label "peroxisome proliferator activated receptor promoter demethylation"@en .
 
 <https://identifiers.org/aop.relationships/1695> a sbdbel:CausalAssertion ;
@@ -10610,7 +10610,7 @@
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://identifiers.org/aop.events/2346> rdfs:label "Decrease, Proliferating Cell Nuclear Antigen"@en .
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 
 <https://identifiers.org/aop.relationships/3676> a sbdbel:CausalAssertion ;
   rdfs:label "KER 3676"@en ;
@@ -11929,7 +11929,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/1821> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 <https://identifiers.org/aop.events/1821> rdfs:label "Decrease, Cell proliferation"@en .
 
 <https://identifiers.org/aop.relationships/3041> a sbdbel:CausalAssertion ;
@@ -19112,7 +19112,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/295> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/239> rdfs:label "Activation, Pregnane-X receptor, NR1l2"@en .
+<https://identifiers.org/aop.events/239> rdfs:label "Activation, Pregnane-X receptor, NR1I2"@en .
 <https://identifiers.org/aop.events/295> rdfs:label "Induction, Upregulation of glucuronyltransferase activity"@en .
 
 <https://identifiers.org/aop.relationships/266> a sbdbel:CausalAssertion ;
@@ -22203,7 +22203,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/752> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 <https://identifiers.org/aop.events/752> rdfs:label "Altered, Meiotic chromosome dynamics"@en .
 
 <https://identifiers.org/aop.relationships/3662> a sbdbel:CausalAssertion ;
@@ -22214,7 +22214,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/2266> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/1505> rdfs:label "Cell cycle, disrupted"@en .
+<https://identifiers.org/aop.events/1505> rdfs:label "Increase, Cell cycle disruption"@en .
 <https://identifiers.org/aop.events/2266> rdfs:label "Demyelination, increased"@en .
 
 <https://identifiers.org/aop.relationships/2977> a sbdbel:CausalAssertion ;
@@ -24887,7 +24887,7 @@
   sbdbel:outcome <https://identifiers.org/aop.events/2371> ;
   dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-<https://identifiers.org/aop.events/2370> rdfs:label "Antagonism binding, α1-Adrenoreceptor "@en .
+<https://identifiers.org/aop.events/2370> rdfs:label "Agonism binding, α1-Adrenoreceptor "@en .
 <https://identifiers.org/aop.events/2371> rdfs:label "Increased cortisol"@en .
 
 <https://identifiers.org/aop.relationships/3351> a sbdbel:CausalAssertion ;
