@@ -52,6 +52,13 @@
   foaf:page <https://identifiers.org/aop/653> ;
   dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
 
+<https://identifiers.org/aop/655> a sbd:Model ;
+  rdfs:label "Activation of Transient Receptor Potential A1 (TRPA1) Leading to Pulmonary Fibrosis"@en ;
+  dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
+  dc:description "Background:&nbsp;Pulmonary fibrosis is a potentially fatal respiratory disease characterized by the accumulation of interstitial scar tissue, leading to the loss of alveolar function, destruction of normal lung architecture, and impaired respiratory function. Adverse Outcome Pathways (AOP) provide a framework for testing and evaluating pulmonary fibrosis. However, to enhance the applicability of AOPs in regulatory environments, further development of the pulmonary fibrosis AOP framework is necessary. This study develops&nbsp;an AOP for pulmonary fibrosis induced by TRPA1 activation, aimed at predicting all compounds highly related to this AOP. Additionally, this study identifies core Key Events (KEs) shared across different AOPs to facilitate further development of the AOP.&nbsp;Existing OECD AOP Wiki networks also lack a dedicated pathway for TRPA1-mediated pulmonary fibrosis. Therefore, constructing an AOP for TRPA1 activation-induced pulmonary fibrosis is of great significance for revealing novel mechanisms of environmental stressor-induced fibrosis and filling gaps in the existing pulmonary fibrosis AOP network."@en ;
+  foaf:page <https://identifiers.org/aop/655> ;
+  dcterms:license      <https://creativecommons.org/licenses/by/4.0/> .
+
 <https://identifiers.org/aop/10> a sbd:Model ;
   rdfs:label "Binding to the picrotoxin site of ionotropic GABA receptors leading to epileptic seizures in adult brain"@en ;
   dc:source <https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/> ;
